@@ -1,0 +1,970 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+  popupWindow = window.open(
+    url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+
+  // if (document.getElementById(shID)) {
+  //   if (document.getElementById(shID+'-show').style.display != 'none') {
+  //     document.getElementById(shID+'-show').style.display = 'none';
+  //     document.getElementById(shID).style.display = 'block';
+  //   }
+  //   else {
+  //     document.getElementById(shID+'-show').style.display = 'inline';
+  //     document.getElementById(shID).style.display = 'none';
+  //   }
+  // }
+} 
+  
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript" src="showhide.js"></script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+    
+<script>
+function myFrame1() {
+    var ifr = document.getElementsByName('frame1')[0];ifr.src = ifr.src;}
+function myFrame2() {
+    var ifr =document.getElementsByName('frame2')[0];ifr.src = ifr.src;}
+function myFrame3() {
+    var ifr =document.getElementsByName('frame3')[0];ifr.src = ifr.src;}
+function myFrame4() {
+    var ifr =document.getElementsByName('frame4')[0];ifr.src = ifr.src;}
+function myFrame5() {
+    var ifr =document.getElementsByName('frame5')[0];ifr.src = ifr.src;}
+function myFrame6() {
+    var ifr =document.getElementsByName('frame6')[0];ifr.src = ifr.src;}
+  
+
+</script>
+
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/reload_drawing.js"></script>
+<style type="text/css">
+  table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+</style>
+
+</head>
+<body>
+<div class="main" style="background-image: url('1073233-black-wood-panels.jpg'); background-attachment: fixed;">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        
+        <div align="center">
+          <a href="index.html">
+            <img src="pic/3 logo_2.png" width="1160" height="70">
+          </a>
+          
+        </div>
+       
+         <!-- <center><a href="index.html"><img src="pic/3 logo_2.png" width="1160" height="70" /></a></center> -->
+      
+      
+      
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="table.html">TABLE OF CONTENT</a></li>
+          <li><a href="list.html">LIST OF P&ID's</a></li>
+        </ul>
+      
+      <!--/search -->
+      </div>
+      <div class="clr"></div>
+      <!--<div class="header_img">-->
+      <!--<img src="images/heder_img.jpg" alt="image" width="960" height="288" /></div>-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
+    </div>
+  </div>
+  
+  <div class="content" >
+    <div class="content_resize">
+      <div class="mainbar">
+        <div id="1.1" class="article">
+         <h1><span>CHAPTER 15 UTILITIES – OPEN DRAINS</span></h1>
+          <h2><span>SECTION 1 INTRODUCTION</span></h2>
+          <h3 id="1.1"><span>1.1. SYSTEM  OVERVIEW</span></h3>
+          <p><span><b>1.1.1 Purpose</b></span></p>
+              <p>The open drain system receives drains from atmospheric sources such as deck drains, drip pans, and equipment tundishes.<br>
+
+              The system consists of 3 main types of open drains:
+
+
+            <ul style="margin-left: 60px">
+              <li> <span style="cursor: pointer; color:blue;" id="p1-show" class="showLink">OD1:</span> continuously oil-contaminated hazardous area open drain header.</li>
+              <li> <span style="cursor: pointer; color:blue;" id="p2-show" class="showLink">OD2:</span> accidentally oil-contaminated hazardous area open drain header.</li>
+              <li>OD3: oil-free drains.</li>
+
+              <div id="p1" class="more">
+              <p>
+
+               <input type="button" value="Reset" onclick="myFrame1()" class="btn btn-primary">
+              <a href="#" id="p1-hide" class="hideLink" onclick="showHide('p1');myFrame1();return false;">Hide image</a>
+              </p>
+
+              <div style="overflow: hidden;">
+              <iframe name="frame1" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                
+              </div>
+            </div>
+
+
+
+
+            <div id="p2" class="more">
+              <p>
+
+               <input type="button" value="Reset" onclick="myFrame2()" class="btn btn-primary">
+              <a href="#" id="p2-hide" class="hideLink" onclick="showHide('p2');myFrame2();return false;">Hide image</a>
+              </p>
+
+              <div style="overflow: hidden;">
+              <iframe name="frame2" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                
+              </div>
+            </div>
+              
+
+            </ul>
+            OD1 are routed to the open drain drum (D-0041)<br>
+            OD2 are routed to disposal tube (D-0042).<br>
+            OD3 are discharged directly overboard to sea<br>
+        
+            
+
+
+                </p>
+
+
+                <p><span><b>1.1.2 System Criticality</b></span></p>
+                <p>The availability of the open drains system is not directly essential to maintain production until there is maintenance operations.<br><br>
+
+                The open drains system is an integral part of the WP4 platform. Although not physically linked to any main processes, it is a vital part of the infrastructure in safely disposing of liquids away from equipment that may be being prepared for maintenance, repaired or recently reinstated.<br><br>
+                The importance of containing potential hazardous liquids is crucial to prevent the possibility of potentially hazardous material settling under equipment or on any decks. Materials such as, hydraulic oil, methanol, condensate any chemical or danger of fumes from lighter hydrocarbons used throughout the platform may be prone to ignition, if there is any ignition source work on going in that particular area. The OD1 network facilitates the collection of these materials.
+
+                </p>
+
+
+                <p><span><b>1.1.3 Key components</b></span></p>
+                <p>The system comprises the following main pieces of equipment:<br>
+
+                  <ul style="margin-left: 60px">
+                    <li>OD1: continuously oil-contaminated hazardous area open drain header.</li>
+                    <li>OD2: accidentally oil-contaminated hazardous area open drain header.</li>
+                    <li>OD3: oil-free drains  which in fact is divided in 2 parts</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6”-OD-1448-0-B91 with its own overboard to sea at EL 8.0 m<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  6”-OD-1447-0-B91 with its own overboard to sea as well at EL 8.0 m
+                     <li>Disposal Tube D-0042</li>
+                     <li>Open Drain Drum D-0041</li>
+            
+                  </ul>
+                </p>
+
+
+
+                <p><span><b>1.1.4 Locations</b></span></p><div id="2.1"></div>
+                <p>See Drawing:<br>
+                  “Plot Plan Cellar Deck and Surfer Landing” <span style="cursor: pointer; color:blue;" id="p3-show" class="showLink">MM-YAD-91-HHIE-160004-01</span> for the location of the Open Drain Drum D-0041.<br>
+                  “Plot Plan Cellar Deck and Surfer Landing” <span style="cursor: pointer; color:blue;" id="p4-show" class="showLink">MM-YAD-91-HHIE-160004-02</span>  for the location of the Disposal Tube D-0042.
+
+                </p>
+
+
+
+                <div id="p3" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame3()" class="btn btn-primary">
+                <a href="#" id="p3-hide" class="hideLink" onclick="showHide('p3');myFrame3();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame3" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+              <div id="p4" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame4()" class="btn btn-primary">
+                <a href="#" id="p4-hide" class="hideLink" onclick="showHide('p4');myFrame4();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame4" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+                 
+
+                
+
+                
+              
+
+
+
+          <div class="" style="margin-top: 80px">
+           <h2><span>SECTION 2  SYSTEM / EQUIPMENT DETAILED DESCRIPTION</span></h2>
+           <h3><span>2.1.  SYSTEM  DESCRIPTION</span></h3>
+
+           
+           <p>
+            See Drawing<br> 
+             -“Wellhead Platform – WP4-Open Drain Header” - <span style="cursor: pointer; color:blue;" id="p5-show" class="showLink">MM-YAD-91-HHIE-150114 </span>  - Rev 05<br><br>
+
+             <div id="p5" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame5()" class="btn btn-primary">
+                <a href="#" id="p5-hide" class="hideLink" onclick="showHide('p5');myFrame5();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame5" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  “Wellhead Platform – WP4-Open Drain Drum and Disposal Tube” - <span style="cursor: pointer; color:blue;" id="p6-show" class="showLink">MM-YAD-91-HHIE-150115 </span>    - Rev 05<br>
+
+
+             <div id="p6" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame6()" class="btn btn-primary">
+                <a href="#" id="p6-hide" class="hideLink" onclick="showHide('p6');myFrame6();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame6" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Mechanical Data Sheet for the Open Drain Drum D-0041 - MM-YAD-91-HHIE-190227 – Rev 03<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Mechanical Data Sheet for the Disposal Tube D-0042 - MM-YAD-91-HHIE-190232 – Rev 02
+
+             
+
+
+          </p>
+
+          <p><span><b>2.1.1 System Description</b></span></p>
+          <p>The open drain system receives drains from atmospheric sources such as deck drains, drip pans, and equipment tundishes. <br><br>
+          The open drains from deck drains on weather deck are discharged directly overboard to sea (OD3). The open drains from chemical laydown area, safety shower and transformer areas are connected to accidentally oil-contaminated hazardous area open drain header (OD2). The open drains from pig launcher drip pan, HPU2 tundish, wet gas meter drip pan, wellhead manifold area, wellhead control panel drip pan, corrosion inhibitor skid drip pan and crane drip pan are connected to continuously oil-contaminated hazardous area open drain header (OD1). <br><br>
+
+
+          The hazardous area open drains (OD1) are routed to the open drain drum (D-0041) and hazardous area open drains (OD2) are routed to disposal tube (D-0042). Independent OD1 and OD2 open drain headers are provided to prevent migration of hydrocarbon.<br><br>
+
+          Each OD1 and OD2 connection is provided with a U-seal and connected to top of header at 45 degree. This U-seal provides a liquid entry seal designed to keep air out of the drain system that could potentially cause an explosive mixture in the headers. It also prevents the release of any hydrocarbon vapors that may be migrating through the drain system. <br><br>
+
+          Tundishes are used when single drain sources or multiple small drain lines need to be drained and there is no convenient way of directing these to a larger collection point. A drip pan is generally used underneath equipment to collect spills. All entries to the drains are protected from the ingress of solids by grating or drain box caps. Should solids make their way into the drain and block the U-seals, these have been designed to be easily roddable and with a flanged nozzle at bottom of the U-seal. <br><br>
+
+          All open drain lines are provided with a minimum slope of 1:100 and the open drain headers have rodding out connections.<br><br>
+
+          The open drain piping material is GRP. There is no service water system on WP4 but a washdown rate of 20 m3/h has been conservatively assumed to account for any portable/temporary wash water arrangement. <br><br>
+
+          The open drain system (open drain drum, open drain header and disposal tube) is designed based on a washdown rate of 20 m3/h (no effluent on the platform thus 0 m3/h for effluent rate). Rainwater, accidental spillage and firewater are not considered as governing cases. <br><br>
+
+          The Open Drain Drum D-0041 overflows to the disposal tube D-0042 (caisson) via a minimum 600 mm liquid seal. The height of the loop seal determines the operating level of the Open Drain Drum D-0041 i.e  800 mm from the vessel bottom. It also has the means of disposing of hydrocarbon liquids that may build up in the vessel.<br><br>
+
+           There is no dedicated pump for the Open Drain Drum D-0041 to dispose of hydrocarbon liquids. Instead, hydrocarbon liquids will be drained manually by gravity to a supply boat. A portable pump is to be installed to recover any hydrocarbon from disposal tube. This pump will be located on and operated from the Supply boat. <br><br>
+
+           The open drain drum D-0041 and disposal tube D-0042 have a device at the top to introduce a batch of biocide injection to prevent micro-organism growth.
+
+          </p>
+
+
+
+          <p><span><b>2.1.4 Open Drain Drum <span style="cursor: pointer; color:blue;" id="p7-show" class="showLink">D-0041</span> </b></span></p>
+
+          <div id="p7" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame7()" class="btn btn-primary">
+            <a href="#" id="p7-hide" class="hideLink" onclick="showHide('p7');myFrame7();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame7" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+
+          <p>The purpose of the Open Drain Drum D-0041 is to remove (and capture for recovery) oil droplets (above 500 μm). This shall be based on gravity settling without any special internals except an oil skimmer pipe equipped with vortex breaker connected to the Surfer Landing Supply Boat disposal via a flexible line <br><br>
+          The Open Drain Drum D-0041 is made of carbon steel with 3 mm CA. The drum is provided with internal coating and sacrificial anodes for protection against corrosion. The drum dimension is 4,300 mm T/T with an inside diameter of 1,400 mm. The drum is a horizontal two-phase separator.
+          <br><br>
+          Open Drain Drum is vented to safe location and equipped with flame arrester and bird screen
+          Design pressure and temperature are 3.5 barg and 64°C max / 0°C min.
+  
+          </p>
+
+          <p><span><b>Technical Data</b></span></p>
+          <p>
+             <table style="width: 100%">
+                <tr>
+                  <th>Tag</th>
+                  <th>D-0041</th>
+                  
+                </tr>
+
+                <tr>
+                  <th>Description</th>
+                  <th>Open drain Drum</th>
+                </tr>
+
+
+                <tr>
+                  <td>Type</td>
+                  <td>Horizontal</td>            
+                </tr>
+
+                <tr>
+                  <td>Supplier / Manufacturer</td>
+                  <td>ALPEC - Korea</td>
+                </tr>
+
+                <tr>
+                  <td>Product</td>
+                  <td>Hazardous open drains</td>
+                </tr>
+
+                <tr>
+                  <td>Design pressure (barg)</td>
+                  <td>3.5</td>
+                </tr>
+
+                <tr>
+                  <td>Operating pressure (barg)</td>
+                  <td>Atm.</td>
+                </tr>
+
+                <tr>
+                  <td>Design temperature max./min. (°C)</td>
+                  <td>64 / 0</td>
+                </tr>
+
+                <tr>
+                  <td>Operating temperature (°C)</td>
+                  <td>Amb</td>
+                </tr>
+
+                <tr>
+                  <td>Internal diameter (mm)</td>
+                  <td>1400</td>
+                </tr>
+
+                <tr>
+                  <td>Length (TL/TL) (mm)</td>
+                  <td>4300</td>
+                </tr>
+
+                <tr>
+                  <td>Corrosion Allowance (mm)</td>
+                  <td>3</td>
+                </tr>
+
+                <tr>
+                  <td>Shell thickness (mm)</td>
+                  <td>9</td>
+                </tr>
+
+                <tr>
+                  <td>Head thickness (mm)</td>
+                  <td>10</td>
+                </tr>
+
+                <tr>
+                  <td>Material shell</td>
+                  <td>SA516 Gr.70</td>
+                </tr>
+
+                <tr>
+                  <td>Material Heads</td>
+                  <td>SA516 Gr.70</td>
+                </tr>
+
+                
+              </table>
+          </p>
+
+
+
+          <p><span><b>2.1.5 Disposal Tube <span style="cursor: pointer; color:blue;" id="p8-show" class="showLink">D-0042</span> </b></span></p>
+
+
+          <div id="p8" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame8()" class="btn btn-primary">
+            <a href="#" id="p8-hide" class="hideLink" onclick="showHide('p8');myFrame1();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame8" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+
+          <p>
+            The overflow from Open Drain Drum D-0041, maintenance drains from closed drain/vent K.O. drum and pump drip pan, hazardous open drains (OD2), and drains from surfer landing drip pan are sent to the Disposal Tube D-0042 where the water is disposed to sea. The caisson is not part of the HC/water separation system and is used to dispose of the water to sea at an elevation sufficiently below LAT that surface contamination does not occur.<br><br>
+            In the event of a major upset resulting in a large volume of HC passing to the caisson the hydrocarbons can be skimmed and pumped out using a portable pump mounted on a supply/work boat. A permanent flexible floating suction is installed in the caisson and connected to the caisson wall above the LAT. The suction line is run from the side of the caisson (nozzle “O2” is located less than 6 m above LAT) to the boat mooring where it can be connected by flexible hose to the pump located on the boat. The disposal tube D-0042 is made of carbon steel with 10 mm CA and provided with internal coating and sacrificial anodes. <br><br>
+            The Disposal Tube D-0042 length is 24,560 mm (without the cover) with an inside diameter of 722 mm. Its design pressure and temperature are ATM and 64°C max / 0°C min.<br><br>
+            The Disposal Tube is equipped with vent and flame arrester to atmosphere.
+          </p>
+
+
+
+          <p><span><b>Technical Data</b></span></p>
+          <p>
+            <table style="width: 100%">
+                <tr>
+                  <th>Tag</th>
+                  <th>D-0042</th>
+                  
+                </tr>
+
+                <tr>
+                  <th>Description</th>
+                  <th>Disposal Tube</th>
+                </tr>
+
+
+                <tr>
+                  <td>Type</td>
+                  <td>Horizontal</td>            
+                </tr>
+
+                <tr>
+                  <td>Supplier / Manufacturer</td>
+                  <td>HHI</td>
+                </tr>
+
+                <tr>
+                  <td>Product</td>
+                  <td>Hazardous open drains</td>
+                </tr>
+
+                <tr>
+                  <td>Design pressure (barg)</td>
+                  <td>Atm.</td>
+                </tr>
+
+                <tr>
+                  <td>Operating pressure (barg)</td>
+                  <td>Atm.</td>
+                </tr>
+
+                <tr>
+                  <td>Design temperature max./min. (°C)</td>
+                  <td>64 / 0</td>
+                </tr>
+
+                <tr>
+                  <td>Operating temperature (°C)</td>
+                  <td>Amb</td>
+                </tr>
+
+                <tr>
+                  <td>Internal diameter (mm)</td>
+                  <td>722</td>
+                </tr>
+
+                <tr>
+                  <td>Length (mm)</td>
+                  <td>24,560</td>
+                </tr>
+
+                <tr>
+                  <td>Corrosion Allowance (mm)</td>
+                  <td>3</td>
+                </tr>
+
+                <tr>
+                  <td>Shell thickness (mm)</td>
+                  <td>10</td>
+                </tr>
+
+                <tr>
+                  <td>Tube thickness (mm)</td>
+                  <td>20</td>
+                </tr>
+
+                <tr>
+                  <td>Cover Head thickness (mm)</td>
+                  <td>40</td>
+                </tr>
+
+                <tr>
+                  <td>Material</td>
+                  <td>S355 KL-40</td>
+                </tr>
+
+                <tr>
+                  <td>Material Cover</td>
+                  <td>S355 KL-40</td>
+                </tr>
+
+                
+              </table>
+          </p>
+
+
+  
+          </div> <!-- section 2 ends here -->
+
+ 		<div id="3.1" class="" style="margin-top: 40px">
+         	<h2><span>SECTION 3 INSTRUMENTATION, CONTROL AND SHUTDOWN</span></h2>
+         	<p>See Drawing<br><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-“Wellhead Platform – WP4-Open Drain Header” -  MM-YAD-91-HHIE-150114  - Rev 05<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-“Wellhead Platform – WP4-Open Drain Drum and Disposal Tube” -  MM-YAD-91-HHIE-150115  - Rev 05
+
+			</p>
+			
+
+
+           <h3><span>3.1. CONTROL DESCRIPTION</span></h3>
+           <p><span><b>3.1.1 Disposal Tube Level Control</b></span></p>
+           <p>HC liquids are separated by gravity in the disposal tube and accumulates above the water level. The level transmitter <span style="cursor: pointer; color:blue;" id="p9-show" class="showLink">LIT-50036</span> monitors the liquid top level in the disposal tube D-0042. Upon sensing a liquid top level at 100 mm above HAT, high alarm <span style="cursor: pointer; color:blue;" id="p10-show" class="showLink">LIAH-50036</span>  is generated to alert the operator. The hydrocarbons inside the Disposal Tube D-0042 can be removed by the supply boat when it visits WP4.</p><div id="3.2"></div>
+
+
+
+           <div id="p9" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+            <a href="#" id="p9-hide" class="hideLink" onclick="showHide('p9');myFrame9();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame9" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+          <div id="p10" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame10()" class="btn btn-primary">
+            <a href="#" id="p10-hide" class="hideLink" onclick="showHide('p10');myFrame10();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame10" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+
+
+
+           
+
+ 
+
+        
+
+          
+     
+
+           <p><span><b>3.1.2  Others Monitoring Instruments</b></span></p>
+           <p>
+           	<ul style="margin-left: 60px">
+              <li>TG-50028: Liquid temperature inside the Open Drain Drum</li>
+              <li>LG-50024: Open Drain Drum Level Gauge</li>
+            </ul><div id="3.3"></div>
+           </p><br>
+
+           <h3><span>3.2. SYSTEM CONTROL AND SET-POINT</span></h3>
+           <p>Not applicable</p><div id="3.4"></div>
+
+
+
+           	<h3><span><b>3.3. INDICATORS AND ALARM SETTINGS</b></span>
+            </h3>
+           	<p>
+           		<table style="width: 100%">
+           			<tr>
+           				<th>Tag</th>
+           				<th>Function</th>
+           				<th>Alarms</th>
+           			</tr><div id="3.5"></div>
+
+
+           			<tr>
+           				<td><a href="JavaScript:newPopup('ima/P&ID/91-160006/91-160006 - north/Grp_91-160006.htm');"> LIAH-50036</a></td>
+           				<td>Disposal Tube level indicator and high level alarm </td>
+           				<td>100 mm above HAT (90%)</td>
+           				
+           			</tr>
+           		</table>
+           	</p>
+
+
+            <div id="3.6"></div>
+            <h3><span>3.4.  TRIP SETTINGS</span></h3>
+
+            <p>Not applicable</p>
+
+
+
+            <h3>3.5.  PRESSURE SAFETY VALVES SETTINGS</h3>
+            <p>Not applicable</p><br>
+
+
+
+
+           	<h3><span><b>3.6.  LIST OF VALVES</b></span></h3>
+            <div id="4.1"></div>
+           	<p>Not applicable
+      
+              
+           	</p>
+
+
+<div id="4.2"></div>
+         </div> <!-- section 3 -->
+
+         <div class="" style="margin-top: 80px">
+         	<h2><span>SECTION 4 OPERATING MODES</span></h2>
+          
+            <h3><span>4.1.  OPERATING MODES</span></h3>
+            <div id="4.3"></div>
+            <p>There are no particular Operating Modes for the Open Drain System
+            
+
+            </p>
+
+
+
+            <h3><span><b>4.2.	NORMAL START-UP</b></span></h3>
+         <div id="4.4"></div>   
+            <p>Not Applicable</p><br>
+
+
+            <h3><span><b>4.3. NORMAL OPERATIONS</b></span></h3>
+            <div id="4.5"></div>
+            <p>The normal operations on the Open Drain Drum consist in following the liquid level in the Open Drain Drum D-0041 and particularly the interface level through the LG-50024 to inform that a supply boat is required to empty the hydrocarbon phase.</p>
+
+
+            <h3><span><b>4.4.	 NORMAL SHUTDOWN</b></span></h3>
+            <p>Not applicable</p>
+
+
+            <h3><span><b>4.5.	EMERGENCY SHUTDOWN</b></span></h3>
+            <p>Not applicable</p>
+<div id="5.1"></div>
+
+         </div> <!-- section 4 ends here -->
+
+
+<div id="5.2"></div>
+         <div class="" style="margin-top: 60px">
+         	<h2><span>SECTION 5	HSE REQUIREMENTS</span></h2>
+            <h3><span>5.1		HEALTH</span></h3>
+            <p><span><b>5.1.1 Personal Protective Equipment</b></span></p>
+            <p>No chemical personal Protective Equipment is required.</p>
+<div id="5.3"></div>
+            <p><span><b>5.2.  SAFETY</b></span></p>
+            <p>5.2.1	Personal Protective Equipment</p>
+            <p>The Safety Personal Protective equipment should be worn at all time while on site.</p>
+
+
+            <p><span><b>5.2.2	Chemical Hazards</b></span></p>
+            <p>Not applicable</p>
+
+
+            <p><span><b>5.2.3	Hazardous sources</b></span></p>
+            <p>
+            	<table style="width: 100%">
+            		<tr>
+            			<th>Hazard</th>
+            			<th>Source</th>
+            			<th>Hazardous Event</th>
+            			<th>Effect</th>
+            			<th>Control</th>
+            		</tr>
+
+                <tr>
+                  <td>Fluid under pressure</td>
+                  <td>Throughout system</td>
+                  <td>Uncontrolled release of energy</td>
+                  <td>Potential for personnel injury</td>
+                  <td>Routine inspections</td>
+                </tr>
+
+                <tr>
+                  <td>gaseous Hydrocarbons</td>
+                  <td>Throughout system</td>
+                  <td>potential for gas release and 
+                      fire/explosion
+                  </td>
+                  <td>Potential for personnel injury </td>
+                  <td>Fire and Gas detection</td>
+                </tr>
+
+            		
+
+
+            	</table>
+            </p>
+
+
+            
+            
+
+
+            <h3><span><b>5.3	ENVIRONMENT</b></span></h3>
+            <p><span><b>5.3.1	Waste</b></span></p>
+            <p>Not applicable</p>
+
+         </div> <!-- section 4 ends here -->
+
+
+
+
+</div>
+ 
+          
+
+        
+        <div class="article" style="padding:5px 10px 2px 30px;">
+          
+          <p><b>CHAPTER 15 : UTILITIES – OPEN DRAINS</b></p>
+
+        </div>
+      </div>
+      <div class="sidebar">
+       <div class="gadget">
+          
+          
+          
+          <h4>CHAPTERS</h4>
+         
+          
+     
+             
+          
+          
+          <ul class="sb_menu" id="style" id="style" style="overflow: scroll;height: 810px; margin: left; width: 250px;">
+      <b>         
+            <li><a href="Chapter 1_final.html">CHAPTER 1</a></li>
+            <li><a href="Chapter 2_final.html">CHAPTER 2</a></li>
+            <li><a href="Chapter 3_final.html">CHAPTER 3</a></li>
+            <li><a href="Chapter 4_final.html">CHAPTER 4</a></li>
+            <li><a href="Chapter 5_final.html">CHAPTER 5</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 6</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 7</a></li>
+            <li><a href="Chapter 8_final.html">CHAPTER 8</a></li>
+             <li><a href="Chapter 9_final.html">CHAPTER 9</a></li>
+            <li><a href="Chapter 10_final.html">CHAPTER 10</a></li>
+            <li><a href="Chapter 11_final.html">CHAPTER 11</a></li>
+            <li><a href="Chapter 12_final.html">CHAPTER 12</a></li>
+            <li><a href="Chapter 13_final.html">CHAPTER 13</a></li>
+            <li><a href="Chapter 14_final.html">CHAPTER 14</a></li>
+             <button class="accordion"><strong>CHAPTER 15</strong></button>
+              <div class="panel" id="style" id="style" style="overflow: scroll;height: 600px; margin: left; width: 250px;">
+                <p><a href="Chapter 15_final.html#1.1">1.1. System Overview</a></p>
+               <p><a href="Chapter 15_final.html#2.1">2.1.	SYSTEM DESCRIPTION</a></p>
+               <p><a href="Chapter 15_final.html#3.1">3.1	CONTROL DESCRIPTION</a></p>
+               <p><a href="Chapter 15_final.html#3.2">3.2	SYSTEM CONTROL AND SET POINT</a></p>
+               <p><a href="Chapter 15_final.html#3.3">3.3	INDICATORS AND ALARM SETTINGS</a></p>
+               <p><a href="Chapter 15_final.html#3.4">3.4 TRIP SETTINGS</a></p>
+               <p><a href="Chapter 15_final.html#3.5">3.5 		PRESSURE SAFETY VALVES SETTINGS</a></p>
+               <p><a href="Chapter 15_final.html#3.6">3.6 		LIST OF VALVES</a></p>
+               <p><a href="Chapter 15_final.html#4.1">4.1.	OPERATING MODES</a></p>
+               <p><a href="Chapter 15_final.html#4.2">4.2.	NORMAL START-UP</a></p>
+               <p><a href="Chapter 15_final.html#4.3">4.3.	NORMAL OPERATIONS</a></p>
+               <p><a href="Chapter 15_final.html#4.4">4.4.	 NORMAL SHUTDOWN</a></p>
+               <p><a href="Chapter 15_final.html#4.5">4.5.	EMERGENCY SHUTDOWN</a></p>
+               <p><a href="Chapter 15_final.html#5.1">5.1		HEALTH</a></p>
+               <p><a href="Chapter 15_final.html#5.2">5.2	SAFETY</a></p>
+               <p><a href="Chapter 15_final.html#5.3">5.3	ENVIRONMENT</a></p>
+               
+
+               
+              
+               
+              </div>
+              
+            <li><a href="Chapter 16_final.html">CHAPTER 16</a></li>
+            <li><a href="Chapter 17_final.html">CHAPTER 17</a></li>
+            <li><a href="Chapter 18_final.html">CHAPTER 18</a></li>
+            <li><a href="Chapter 19_final.html">CHAPTER 19</a></li>
+            
+          
+          </b>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+    
+    <div class="footer">
+     
+     <p class="lf"><a href="credits.html">CREDITS</a>.&nbsp;&nbsp;Design by <a target="_blank" href="http://www.spieogs.com/">SPIE Oil &amp; Gas Services ASP Sdn Bhd</a>
+    <img src="pic/spie.jpg" width="85" height="42"></p>
+      <p class="lf"> This site is best viewed with a resolution of 1024x768 (or higher) and supports Firefox 1.0+ and Google Chrome 18+.</p>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+<!-- Drop Down Menu Code Start (Please insert in each page)-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+<!-- Drop Down Menu Code End-->
+
+<script type="text/javascript">
+      
+  /*Menu-toggle*/
+    $("#sb_menu").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

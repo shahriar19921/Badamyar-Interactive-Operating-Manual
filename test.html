@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('.toggle-btn').on('click', function(){
+        var root = $(this).closest(".picture-container");
+        var img = $(root).find("img");
+        $(img).toggle();
+    });
+});
+
+</script>
+
+
+
+<style type="text/css">
+body > div {
+  margin: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+</style>
+
+
+
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="picture-container">
+  <button class="toggle-btn">Show/Hide</button>
+  <div>
+     <img src="http://24.media.tumblr.com/tumblr_lggvvf2mCm1qgnva2o1_500.gif">
+  </div>
+</div>
+<div class="picture-container">
+  <button class="toggle-btn">Show/Hide</button>
+  <div>
+     <img src="http://24.media.tumblr.com/tumblr_lggvvf2mCm1qgnva2o1_500.gif">
+  </div>
+</div>
+<div class="picture-container">
+  <button class="toggle-btn">Show/Hide</button>
+  <div>
+     <img src="http://24.media.tumblr.com/tumblr_lggvvf2mCm1qgnva2o1_500.gif">
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  $(function(){
+    $('.toggle-btn').on('click', function(){
+        var root = $(this).closest(".picture-container");
+        var img = $(root).find("img");
+        $(img).toggle();
+    });
+});
+
+</script>
+</body>
+</html>

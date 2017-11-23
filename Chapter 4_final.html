@@ -1,0 +1,848 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+  popupWindow = window.open(
+    url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+
+  // if (document.getElementById(shID)) {
+  //   if (document.getElementById(shID+'-show').style.display != 'none') {
+  //     document.getElementById(shID+'-show').style.display = 'none';
+  //     document.getElementById(shID).style.display = 'block';
+  //   }
+  //   else {
+  //     document.getElementById(shID+'-show').style.display = 'inline';
+  //     document.getElementById(shID).style.display = 'none';
+  //   }
+  // }
+} 
+  
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript" src="showhide.js"></script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+    
+<script>
+function myFrame1() {
+    var ifr = document.getElementsByName('frame1')[0];ifr.src = ifr.src;}
+function myFrame2() {
+    var ifr =document.getElementsByName('frame2')[0];ifr.src = ifr.src;}
+function myFrame3() {
+    var ifr =document.getElementsByName('frame3')[0];ifr.src = ifr.src;}
+function myFrame4() {
+    var ifr =document.getElementsByName('frame4')[0];ifr.src = ifr.src;}
+function myFrame5() {
+    var ifr =document.getElementsByName('frame5')[0];ifr.src = ifr.src;}
+function myFrame6() {
+    var ifr =document.getElementsByName('frame6')[0];ifr.src = ifr.src;}
+  
+
+</script>
+
+<script type="text/javascript" src="js/top.js"></script>
+
+
+</head>
+<body>
+<div class="main" style="background-image: url('1073233-black-wood-panels.jpg'); background-attachment: fixed;">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        
+        <div align="center">
+          <a href="index.html">
+            <img src="pic/3 logo_2.png" width="1160" height="70">
+          </a>
+          
+        </div>
+       
+         <!-- <center><a href="index.html"><img src="pic/3 logo_2.png" width="1160" height="70" /></a></center> -->
+      
+      
+      
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="table.html">TABLE OF CONTENT</a></li>
+          <li><a href="list.html">LIST OF P&ID's</a></li>
+        </ul>
+      
+      <!--/search -->
+      </div>
+      <div class="clr"></div>
+      <!--<div class="header_img">-->
+      <!--<img src="images/heder_img.jpg" alt="image" width="960" height="288" /></div>-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
+    </div>
+  </div>
+  
+  <div class="content" >
+    <div class="content_resize">
+      <div class="mainbar">
+        <div id="1.1" class="article">
+         <h1><span>CHAPTER 4 : SAFETY & CRITICAL SYSTEM – FIRE & GAS SYSTEM</span></h1>
+          <h2><span>SECTION 1 : INTRODUCTION</span></h2>
+          <span></span>
+          <h3 id="1.1"><span>1.1. SYSTEM  OVERVIEW</span></h3>
+          <p><span><b>1.1.1 Purpose</b></span><br><br>
+
+  
+          The Fire and Gas Detection System, as part of the Plant Safety System (PSS), is provided to detect abnormal concentration of flammable gas and the existence of fire on WP4 and activate related alarms and initiate executive actions (ESD activation, electrical isolation) so as to minimize the risk associated with fire and gas hazards. Early warning will be based on detection of flammable gas, fire and heat at various locations on the WP4 platform.
+          The prime objective in the design of the fire and gas detection system is the reduction in escalation potential that may result from potential fire or explosion hazards. The system, under the appropriate fire and gas conditions, automatically raises alarms (audible and visual) and initiates the shutdown systems.
+          The provision of a Gas Alarm system provides early warning to personnel on the platforms of the existence of a significant hazard and enables timely and orderly evacuation of personnel from the affected areas and ensures speedy fire control / extinction by manually operated fire extinguishing systems or appliances, to prevent or minimise escalation to equipment and structures.
+          PSS process the Emergency Shutdown and the Fire and gas logics. Fire and Gas sensor loops shall be connected to the PSS marshalling cabinets and cross-wired to PSS input cards dedicated to the Fire & gas in the dedicated racks. 
+          The offshore facilities are divided into fire zones for the purpose of both detection and protection. Each Fire zone is divided into fire areas per geographical zones. Each fire area shall be covered by a group of fire and/or gas detectors. The Fire and Gas matrix panels and F&G mimics are presented on the basis of these zones. WP4 is a remote satellite wellhead platform. Thus, the requirement to define fire zone separations does not apply to this installation. Therefore, WP4 fire zone is considered a single fire zone. 
+          Combined visual/audible alarms are installed on WP4. General alarm (combined visual/audible alarms) is initiated manually via manual call points (MAC) or automatically upon confirmed gas or fire detection.
+      </P>
+
+      <div id="1.1.2">
+        <p><span><b>1.1.2 System Criticality</b></span><br>
+          As it preserves the safety of the personnel and the integrity of the equipment, the fire and gas system is one of the most critical systems of the platform.
+        </p>
+      </div>
+
+      <div id="1.1.3">
+        <p><span><b>1.1.3 Key components</b></span><br>
+        On WP4 the F&G system manages the following devices:
+        <ul style="margin-left: 30px">
+        <li> MAC’s </li>
+        <li>Audible and visible Alarms </li>
+        <li>IR Point Gas Detector </li>
+        <li>UV/IR Flame Detector </li>
+        <li>Fusible Plug</li>
+        <li>Heat Detector </li>
+        </ul> 
+        </p>
+      </div>
+
+      <div id="1.1.4">
+        <p><span><b>1.1.4 Locations</b></span><br>
+          Fire and gas detectors are located throughout the decks depending on the risks associated to the different zones except for the Weather Deck and the Surfer Landing.<br>
+          For a detailed listing of the detectors with their locations, see section 2.1.2
+
+        </p>
+      </div>
+
+
+      <div id="1.1.5">
+        <p><span><b>1.1.5 System Dependencies</b></span>
+          Operation of the F&G system require the following to run
+          <ul style="margin-left: 30px">
+            <li>ICSS <a href="Chapter 6_final.html">(see Chapter 6)</a>  </li>
+            <li>Electrical System and UPS <a href="Chapter 7_final.html">(see Chapter 7)</a></li>
+
+          </ul>
+        </p>
+      </div>
+
+
+      <div id="1.1.6">
+        <p><span><b>1.1.6 Interface with other platforms</b></span>
+          The F&G system of WP4 has an interface with LCP platform in case of 
+
+          <ul style="margin-left: 30px">
+            <li>Confirmed gas detection
+             <span style="cursor: pointer; color:blue;" id="p1-show" class="showLink"> R-50550</span> 
+            “Plot Plan WP4 Elevation View" - EAST.  R-50550 which activates WP4 ESD-1G then WP4 ESD-1 </li>
+            <li>Confirmed Fire Detection 
+              <span style="cursor: pointer; color:blue;" id="p2-show" class="showLink"> R-50551</span>
+
+             which activates WP4 ESD-1F then WP4 ESD-1</li>
+
+            <div id="p1" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+            <a href="#" id="p1-hide" class="hideLink" onclick="showHide('p1');return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame9" src="ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+          <div id="p2" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+            <a href="#" id="p2-hide" class="hideLink" onclick="showHide('p2');return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame9" src="ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+          
+
+          </ul><br>
+          ESD-1 of WP4 in turn activates 
+          <span style="cursor: pointer; color:blue;" id="p3-show" class="showLink"> LCP ESD-1.05</span>
+          <br>
+          LCP ESD 1.05 activates:<br>
+
+          <div id="p3" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+            <a href="#" id="p3-hide" class="hideLink" onclick="showHide('p3');return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame9" src="ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+          <ul style="margin-left:30px ">
+            <li>At LCP:<br>
+            &nbsp;&nbsp;-  Close WP4 incoming line ESV-80000<br>
+              &nbsp;&nbsp;- ESD-3.26<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Close WP4 incoming line SDV-80005<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Close all WP4 wing valves via PCS<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Stop corrosion Inhibitor Pumps P-0046A/B at WP4 via PCS
+
+            </li>
+            <li>At WP4<br>
+           &nbsp;&nbsp;- Activates WP4 ESD-1.02<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Close pipeline ESV-50008<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Activates WP4 ESD-2
+
+
+            </li>
+          </ul>
+        </p>
+      </div>
+
+      <div>
+        <h2><span>SECTION 2 SYSTEM / EQUIPMENT DETAILED DESCRIPTION</span></h2>
+          <span></span>
+          <h3><span>2.1. FIRE AND GAS DETECTORS</span></h3>
+          <p><span><b>2.1.1 Fire Detection</b></span><br><br>
+            Fire detection is provided in the wellhead, production header and test header areas of WP4 by means of fusible plugs; which are pressurized by nitrogen, and UV/IR flame detectors.<br><br>
+            Activation of low pressure alarm in fusible plug loop (2oo3 voting) initiates automatic actions. In addition, all outdoor process areas of WP4 platform are covered by UV/IR flame detectors. Executive action are initiated by 2ooN (N ≥ 3) voting of flame detectors.<br><br>
+            The trip voting logic is as follows:<br>
+            <ul style="margin-left: 30px">
+              <li>2ooN: Detection confirm or</li>
+              <li>1ooN: Detection confirm if N-1 Detector fault is confirmed or</li>
+              <li>N detector fault</li>
+            </ul>
+            Automatic safety actions based on fire detection in open areas of WP4 are:<br>
+            <ul style="margin-left: 30px">
+              <li>General audio and visual alarms on WP4</li>
+              <li>Alarm in QP2 control room;</li>
+              <li>Alarm “Confirmed Fire” on F&G Matrix panel;</li>
+              <li>Initiate ESD-1 Fire, through ESD-1F</li>
+              <li>During drilling rig activities, activate visual and audible alarm (XS 50907 and 50908)</li>
+            </ul>
+
+          </p>
+
+
+      </div>
+
+      <div id="2.1.2">
+        <p><span><b>2.1.2 Gas Detection</b></span><br><br>
+        Flammable gas detection is provided on WP4 covering all areas of potential sources of flammable gas or at the inlet of enclosures with electrical components not certified for Zone 1 hazardous area.<br><br>
+        IR point type gas detectors are provided. They are calibrated for methane.<br>
+        The detectors are, as far as possible, installed in locations where environmental effects will not influence their operation (rain, wind…)<br><br>
+        Automatic executive actions will be initiated on confirmed high-high level gas detection by 2ooN (N≥3) voting of IR point type gas detectors.<br><br>
+        Single high or high-high level gas detection at 20% LEL or 50% LEL respectively raises an alarm locally and in the QP2 control room.<br>
+        Actions in case of confirmed high-high level gas detection in WP4 platform are;<br>
+
+        <ul style="margin-left: 30px">
+          <li>General audio and visual alarms on WP4;</li>
+          <li>Alarm in QP2 Control room</li>
+          <li>Alarm “Confirmed Gas” on F&G Matrix panel;</li>
+          <li>Isolate and inhibit start of all electrical users not certified for Zone 0 or 1;</li>
+          <li>Initiate ESD-1G.</li>
+        </ul>
+        Actions in case of any gas detection alarm (20 % LEL from any gas detection) in WP4 platform are:<br>
+        <ul style="margin-left: 30px">
+          <li>Activate helicopter status light to warn approaching helicopter.</li>
+        </ul>
+        </p>
+      </div>
+
+
+      <div id="2.1.3">
+        <p><span><b>2.1.3 Toxic Gas Detection</b></span><br><br>
+        The level of H2S considered in the design is not sufficient to justify fixed H2S detection. Portable H2S detection devices should be provided for operations requiring pipeline or equipment intervention, where hydrocarbon leakage is possible.<br> <br>
+        It is not envisaged that non-invasive operations will require portable H2S detectors or that operators will routinely carry such items.
+
+        </p>
+      </div>
+
+
+      <div id="2.1.4">
+        <p><span><b>2.1.4 Manual Alarm Call Point (MAC’s)</b></span><br><br>
+        Manual alarm call (MAC) points are provided at each level that contain a work area, close to each stair case, access way and at all bridge accessed area.<br>
+        Manual alarm call point (MACs) are provided and strategically distributed throughout WP4 to enable personnel to raise an alarm in case of potential emergency situation. MACs are distributed along the access ways so that a MAC may be reached within 20 m of traveling distance as per GS EP SAF 312.<br>
+        MACs shall be of the double action (type B) type and be colored red. MACs shall activate alarms to the QP2 control room and locally on WP4. MACs are certified for Zone 1 hazardous area.
+
+        </p>
+      </div>
+
+
+      <div id="2.1.5">
+        <p><span><b>2.1.5 ESD-1G Hand Switches</b></span><br><br>
+          ESD-1G Hand Switches (push buttons) are placed at the strategic locations of WP4 in order to be accessed by escaping personnel in case of emergency situation.
+          <ul style="margin-left: 30px">
+            <li>Two (2) in cellar deck near stair way</li>
+            <li>Two (2) in mezzanine deck near stair way to helideck</li>
+          </ul><br>
+          ESD-1G push buttons are certified for Zone 1 hazardous area.
+        </p>
+      </div>
+
+
+
+      <div id="2.1.6">
+        <p><span><b>2.1.6 Location of the Fire and Gas Detectors</b></span><br>
+
+<table style="width: 100%; ">
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+</style>
+  <tr>
+    <th>Deck Name</th>
+    <th>Tag</th> 
+    <th>Qty</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><a href="JavaScript:newPopup('ima/P&ID/90-112507/90-112507/90-112507.html');">Weather Deck</a>  </td>
+    <td>MAC-53501<br>
+        MAC-53502<br>
+        MAC-54501<br>
+        MAC-54502<br>
+    </td>
+    <td>4</td>
+    <td>Manual Alarm Call point</td>
+  </tr>
+  <tr>
+    <td>XIL-54504</td>
+    <td>1</td>
+    <td>Audible and Visible Alarm</td>
+  </tr>
+  <tr>
+    <td> <a href="JavaScript:newPopup('ima/P&ID/90-112508/90-112508/90-112508.html');">Mezzanine Deck</a></td>
+    <td>FD-53507<br>
+        FD-53508<br>
+        FD-53509<br>
+        FD-53510<br>
+        FD-53511<br>
+        FD-53512<br>
+        FD-53513
+</td>
+    <td>7</td>
+    <td>UV/IR Flame Detector</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Mezzanine Deck</td>
+    <td>GD-53514<br>
+        GD-53515<br>
+        GD-53516<br>
+        GD-53517<br>
+        GD-53518<br>
+        GD-53519<br>
+        GD-53520<br>
+        GD-53521
+  </td>
+    <td>8</td>
+    <td>IR Point Gas Detector</td>
+  </tr>
+  <tr>
+    <td>MAC-53503<br>
+        MAC-53504
+    </td>
+    <td>2</td>
+    <td>Manual Alarm Call point</td>
+  </tr>
+  <tr>
+    <td>FP-53522</td>
+    <td>35</td>
+    <td>Fusible Loop</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><a href="JavaScript:newPopup('ima/P&ID/90-112509/90-112509/90-112509.html');">Main Deck</a> </td>
+    <td>HD-52527<br>
+        HD-52528<br>
+        HD-52529
+    </td>
+    <td>3</td>
+    <td>Heat Detector</td>
+  </tr>
+  <tr>
+    <td>FD-52506<br>
+        FD-52507<br>
+        FD-52508<br>
+        FD-52509<br>
+        FD-52510<br>
+        FD-52511<br>
+        FD-52512<br>
+        FD-52513<br>
+        FD-52514<br>
+        FD-52515<br>
+        FD-52530<br>
+        FD-52534
+</td>
+    <td>12</td>
+    <td>UV/IR Flame Detector</td>
+  </tr>
+   <tr>
+    <td rowspan="2"><a href="JavaScript:newPopup('ima/P&ID/90-112509/90-112509/90-112509.html');">Main Deck</a></td>
+    <td>GD-52516<br>
+        GD-52517<br>
+        GD-52518<br>
+        GD-52519<br>
+        GD-52520<br>
+        GD-52521<br>
+        GD-52522<br>
+        GD-52523<br>
+        GD-52524<br>
+        GD-52525<br>
+        GD-52526<br>
+        GD-52531<br>
+        GD-52532<br>
+        GD-52533
+    </td>
+    <td>14</td>
+    <td>IR Point Gas Detector</td>
+  </tr>
+  <tr>
+    <td>MAC-52501<br>
+        MAC-52502<br>
+        MAC-52503<br>
+        MAC-52504<br>
+        MAC-52505
+</td>
+    <td>5</td>
+    <td>Manual Alarm Call point</td>
+  </tr>
+   <tr>
+    <td rowspan="3"><a href="JavaScript:newPopup('ima/P&ID/90-112510/90-112510/90-112510.html');">Celler Deck</a></td>
+    <td>FD-51504<br>
+        FD-51505<br>
+        FD-51506<br>
+        FD-51507<br>
+        FD-51508<br>
+        FD-51514<br>
+        FD-51517
+</td>
+    <td>7</td>
+    <td>UV/IR Flame Detector</td>
+  </tr>
+  <tr>
+    <td>GD-51509<br>
+        GD-51510<br>
+        GD-51511<br>
+        GD-51512<br>
+        GD-51513
+</td>
+    <td>5</td>
+    <td>IR Point Gas Detector</td>
+  </tr>
+  <tr>
+    <td>MAC-51501<br>
+        MAC-51503
+</td>
+    <td>2</td>
+    <td>Manual Alarm Call point</td>
+  </tr>
+</table>
+        </p>
+      </div>
+
+<p>See Drawings: <br><br>
+
+ <span>WP4 – F&G Detector Layout – Weather deck</span>  
+<span style="margin-left: 62px">MM-YAD-90-HHIE-112507</span>  
+<span  style="margin-left: 58px">Rev 03</span>  <br> 
+
+<span>WP4 – F&G Detector Layout – Mezzanine deck </span>
+<span  style="margin-left: 51.5px">MM-YAD-90-HHIE-112508</span>
+<span  style="margin-left: 58px">Rev 03</span> <br> 
+
+
+<span>WP4 – F&G Detector Layout – Main deck  </span>  
+<span style="margin-left: 82px">MM-YAD-90-HHIE-112509</span>   
+<span style="margin-left: 58px">Rev 03</span>   <br> 
+
+
+<span>WP4 – F&G Detector Layout – Cellar deck</span>
+<span style="margin-left: 74px">MM-YAD-90-HHIE-112510</span>
+<span style="margin-left: 60px"> Rev 03</span><br> 
+
+<span>WP4 – F&G Detector Layout – Surfer Landing </span>
+<span style="margin-left: 56px">MM-YAD-90-HHIE-112511 </span>
+<span style="margin-left: 60px">Rev 03</span>
+     
+
+
+
+ </p>
+
+
+ <div>
+   <h3><span>2.2  CONSEQUENCES OF FIRE AND GAS ESD</span></h3>
+   <p>
+   <span>See Drawings:</span> <span style="margin-left: 60px">MM-YAD-91-HHIE-120002 Sh 1 of 2 </span> <span style="margin-left: 60px">Rev 05</span><br>
+
+   <span></span>
+   <span style="margin-left: 144px" >MM-YAD-91-HHIE-120002 Sh 2 of 2 </span> <span style="margin-left: 60px"> Rev 05</span>
+                 
+   
+
+   </p>
+
+   <table style="width: 100%; ">
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+</style>
+  <tr>
+    <th>ESD Level</th>
+    <th>Triggered by (causes)</th> 
+    <th>Consequences (actions)</th>
+    
+  </tr>
+  <tr>
+    <td><a href="JavaScript:newPopup('ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm');">ESD-1G</a> </td>
+    <td>Confirmed gas detection R-50550</td>
+    <td>Trip LV SWB incomer (SW-41-2-1) on WP4<br>
+        Trip 24V DC UPS Battery (XS-5810)<br>
+        Trip 230V AC UPS Battery (XS-58105)<br>
+        Initiate ESD-1G.01<br>
+        Activate Helideck Status light (XS-58109<br>
+        Initiate ESD-1G.02
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td>ESD-1G</td>
+    <td>Confirmed gas detection R-50550</td>
+    <td>Trip temporary Diesel Generator incomer CB (XS-58110)<br>
+        Trip temporary Diesel Generator (XS-50910)<br>
+        Initiate ESD-1G.03<br>
+        Trip WP4 6.6 KV Feeder at PP<br>
+        Initiate ESD-1<br>
+        Activate LCP ESD-1.05 (see paragraph 1.1.6)<br>
+        Initiate ESD-1.01<br>
+        Activate visual & audible alarm on WP4<br>
+        Activate visual & audible alarm on drilling rig (if connected)<br>
+        Initiate ESD-1.02<br>
+        Close pipeline ESV-50008<br>
+        Close XY-50065 solenoid valve on ESD-1 hydraulic supply header<br>
+        Trip auxiliary pump P-0045 (XS-58064)<br>
+        Initiate ESD-2<br>
+        Activate ESD-3.1x<br>
+        Close XY-5X018 solenoid valve on ESD-3 hydraulic supply header<br>
+        Activate ESD-3.2<br>
+        Trip corrosion inhibitor injection pumps P-0046 A/B (XS-58402 A/B)<br>
+        Close SDV-50037<br>
+        Initiate ESD-3.3<br>
+        Initiate ESD-3.3A<br>
+        Trip Closed Drain Pump P-0040 A (XS-58027 A)<br>
+        Initiate ESD-3.3B<br>
+        Trip Closed Drain Pump P-0040 B (XS-58027 B)
+</td>
+    
+  </tr>
+  <tr>
+  
+    <td>ESD-1G<br>
+     
+  </td>
+    <td>Confirmed gas detection R-50550</td>
+      <td>Close XY-50067 solenoid valve on ESD-2 Hydraulic Supply Header<br>
+        Activate ESD-3.4<br>
+        Activate ESD-3.5<br>
+        Trip VHP Hydraulic Oil Pumps P-0042 A/B (XS-58056 A/B
+        Activate ESD-3.6<br>
+        Trip HP Hydraulic Oil Pumps P-0043 A/B (XS-58057 A/B
+        Activates ESD-3.7<br>
+        Trip MP Hydraulic Oil Pumps P-0044 A/B (XS-58058 A/B)
+</td>
+  </tr>
+  <tr>
+    <td><a href="JavaScript:newPopup('ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm');">ESD-1G.01</a><br>
+        
+    </td>
+    <td>Gas Detection Alarm R-50555</td>
+    <td>Activate Helideck Status light (XS-58109</td>
+      </tr>
+  <tr>
+    <td><a href="JavaScript:newPopup('ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm');">ESD-1G.02</a></td>
+    <td>Confirmed Gas Detection at Temporary Diesel Generator R-50554</td>
+    <td>Trip temporary Diesel Generator incomer CB (XS-58110)<br>
+      Trip temporary Diesel Generator (XS-50910)
+    </td>
+  </tr>
+  <tr>
+    <td><a href="JavaScript:newPopup('ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm');">ESD-1F</a> </td>
+    <td>Confirmed Fire Detection R-50551<br>
+    <td>Initiate ESD-1<br>
+        Activate LCP ESD-1.05 (see paragraph 1.1.6)<br>
+        Initiate ESD-1.01<br>
+        Activate visual & audible alarm on WP4<br>
+        Activate visual & audible alarm on drilling rig (if connected)<br>
+        Initiate ESD-1.02<br>
+        Close pipeline ESV-50008<br>
+        Close XY-50065 solenoid valve on ESD-1 hydraulic supply header<br>
+        Trip auxiliary pump P-0045 (XS-58064)<br>
+        Initiate ESD-2<br>
+        Activate ESD-3.1x<br>
+        Close XY-5X018 solenoid valve on ESD-3 hydraulic supply header<br>
+        Activate ESD-3.2 <br>
+        Trip corrosion inhibitor injection pumps P-0046 A/B (XS-58402 A/B)<br>
+        Close SDV-50037<br>
+        Initiate ESD-3.3<br>
+        Initiate ESD-3.3A<br>
+        Trip Closed Drain Pump P-0040 A (XS-58027 A)<br>
+        Initiate ESD-3.3B<br>
+        Trip Closed Drain Pump P-0040 B (XS-58027 B)<br>
+        Close XY-50067 solenoid valve on ESD-2 Hydraulic Supply Header<br>
+        Activate ESD-3.4<br>
+        Activate ESD-3.5<br>
+        Trip VHP Hydraulic Oil Pumps P-0042 A/B (XS-58056 A/B
+        Activate ESD-3.6<br>
+        Trip HP Hydraulic Oil Pumps P-0043 A/B (XS-58057 A/B
+        Activates ESD-3.7<br>
+        Trip MP Hydraulic Oil Pumps P-0044 A/B (XS-58058 A/B)
+
+</td>
+    </td>
+    
+    
+  </tr>
+  
+   <tr>
+    <td rowspan="2"><a href="JavaScript:newPopup('ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm');">ESD-1.01</a> </td>
+    <td>MAC’s in FGS System (R-50552)</td>
+    <td rowspan="2">Activate visual & audible alarm on WP4<br>
+Activate visual & audible alarm on drilling rig (if connected)
+</td>
+    
+  </tr>
+  <tr>
+    <td>Flame Detection inside Shelter or electrical cabinet area R-50556</td>
+  
+  </tr>
+   
+  
+
+</table>
+
+
+
+ </div>
+
+
+
+
+
+
+
+</div>
+
+
+        
+        <div class="article" style="padding:5px 10px 2px 30px;">
+          
+          <p><b>CHAPTER 4 : SAFETY & CRITICAL SYSTEM – FIRE & GAS SYSTEM</b></p>
+
+        </div>
+      </div>
+      <div class="sidebar">
+       <div class="gadget">
+          
+          
+          
+          <h4>CHAPTERS</h4>
+         
+          
+     
+             
+          
+          
+          <ul class="sb_menu" id="style" id="style" style="overflow: scroll;height: 810px; margin: left; width: 250px;">
+      <b>         
+            <li><a href="Chapter 1_final.html">CHAPTER 1</a></li>
+            <li><a href="Chapter 2_final.html">CHAPTER 2</a></li>
+            <li><a href="Chapter 3_final.html">CHAPTER 3</a></li>
+            
+             <button class="accordion"><strong>CHAPTER 4</strong></button>
+              <div class="panel">
+                <p><a href="Chapter 4_final.html#1.1">1.1. System Overview</a></p>
+               <p><a href="Chapter 4_final.html#2.1">2.1. FIRE AND GAS DETECTORS</a></p>
+               <p><a href="Chapter 4_final.html#2.2">2.2  CONSEQUENCES OF FIRE AND GAS ESD</a></p>
+               
+              
+               
+              </div>
+              <li><a href="Chapter 5_final.html">CHAPTER 5</a></li>
+              <li><a href="Chapter 6_final.html">CHAPTER 6</a></li>
+              <li><a href="Chapter 7_final.html">CHAPTER 7</a></li>
+              <li><a href="Chapter 8_final.html">CHAPTER 8</a></li>
+              <li><a href="Chapter 9_final.html">CHAPTER 9</a></li>
+              <li><a href="Chapter 10_final.html">CHAPTER 10</a></li>
+            <li><a href="Chapter 11_final.html">CHAPTER 11</a></li>
+            <li><a href="Chapter 12_final.html">CHAPTER 12</a></li>
+             <li><a href="Chapter 13_final.html">CHAPTER 13</a></li>
+            <li><a href="Chapter 14_final.html">CHAPTER 14</a></li>
+            <li><a href="Chapter 15_final.html">CHAPTER 15</a></li>
+            <li><a href="Chapter 16_final.html">CHAPTER 16</a></li>
+            <li><a href="Chapter 17_final.html">CHAPTER 17</a></li>
+            <li><a href="Chapter 18_final.html">CHAPTER 18</a></li>
+            <li><a href="Chapter 19_final.html">CHAPTER 19</a></li>
+            
+          </b>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+    
+    <div class="footer">
+     
+     <p class="lf"><a href="credits.html">CREDITS</a>.&nbsp;&nbsp;Design by <a target="_blank" href="http://www.spieogs.com/">SPIE Oil &amp; Gas Services ASP Sdn Bhd</a>
+    <img src="pic/spie.jpg" width="85" height="42"></p>
+      <p class="lf"> This site is best viewed with a resolution of 1024x768 (or higher) and supports Firefox 1.0+ and Google Chrome 18+.</p>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+<!-- Drop Down Menu Code Start (Please insert in each page)-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+<!-- Drop Down Menu Code End-->
+
+<script type="text/javascript">
+      
+  /*Menu-toggle*/
+    $("#sb_menu").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

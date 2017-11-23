@@ -1,0 +1,788 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+  popupWindow = window.open(
+    url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+
+  // if (document.getElementById(shID)) {
+  //   if (document.getElementById(shID+'-show').style.display != 'none') {
+  //     document.getElementById(shID+'-show').style.display = 'none';
+  //     document.getElementById(shID).style.display = 'block';
+  //   }
+  //   else {
+  //     document.getElementById(shID+'-show').style.display = 'inline';
+  //     document.getElementById(shID).style.display = 'none';
+  //   }
+  // }
+} 
+  
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript" src="showhide.js"></script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+    
+<script>
+function myFrame1() {
+    var ifr = document.getElementsByName('frame1')[0];ifr.src = ifr.src;}
+function myFrame2() {
+    var ifr =document.getElementsByName('frame2')[0];ifr.src = ifr.src;}
+function myFrame3() {
+    var ifr =document.getElementsByName('frame3')[0];ifr.src = ifr.src;}
+function myFrame4() {
+    var ifr =document.getElementsByName('frame4')[0];ifr.src = ifr.src;}
+function myFrame5() {
+    var ifr =document.getElementsByName('frame5')[0];ifr.src = ifr.src;}
+function myFrame6() {
+    var ifr =document.getElementsByName('frame6')[0];ifr.src = ifr.src;}
+  
+
+</script>
+
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/reload_drawing.js"></script>
+<style type="text/css">
+  table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+</style>
+
+</head>
+<body>
+<div class="main" style="background-image: url('1073233-black-wood-panels.jpg'); background-attachment: fixed;">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        
+        <div align="center">
+          <a href="index.html">
+            <img src="pic/3 logo_2.png" width="1160" height="70">
+          </a>
+          
+        </div>
+       
+         <!-- <center><a href="index.html"><img src="pic/3 logo_2.png" width="1160" height="70" /></a></center> -->
+      
+      
+      
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="table.html">TABLE OF CONTENT</a></li>
+          <li><a href="list.html">LIST OF P&ID's</a></li>
+        </ul>
+      
+      <!--/search -->
+      </div>
+      <div class="clr"></div>
+      <!--<div class="header_img">-->
+      <!--<img src="images/heder_img.jpg" alt="image" width="960" height="288" /></div>-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
+    </div>
+  </div>
+  
+  <div class="content" >
+    <div class="content_resize">
+      <div class="mainbar">
+        <div id="1.1" class="article">
+         <h1><span>CHAPTER 13 EXTRACTION WELLS & FLOWLINES – WET GAS METER</span></h1>
+          <h2><span>SECTION 1 INTRODUCTION</span></h2>
+          <h3 id="1.1"><span>1.1. SYSTEM  OVERVIEW</span></h3>
+          <p><span><b>1.1.1 Purpose</b></span></p>
+              <p>The Wet Gas Meter measures the water content in the gas and individual flow rate of hydrocarbons and water. The Roxar Wet Gas Meter is designed for installation in wells with gas volume fraction (GVF) > 95 %vol.<br><br>
+
+                </p>
+
+
+                <p><span><b>1.1.2 System Criticality</b></span></p>
+                <p>This system is not critical since it could be replaced by other analytic methods in case of breakdown. However the time to obtain same accurate analytic result by other way will certainly jeopardize the proper operational reservoir follow-up or decision to offload a well. </p>
+
+
+                <p><span><b>1.1.3 Key components</b></span></p>
+                <p>
+                  <img style="margin-left: 100px" src="pic/chapter 13_1.1.3.png" width="650" height="460"><br><br>
+
+                  In addition to the meter spool there is electronics enclose which includes power supply and flow computer.  Hence the meter can be divided in to three parts: meter body, electronic enclosure and software.
+                </p>
+
+
+
+                <p><span><b>1.1.4 Locations</b></span></p><div id="2.1"></div>
+                <p>See Drawing:<br>
+                “Plot Plan Main Deck” <span style="cursor: pointer; color:blue;" id="p1-show" class="showLink">MM-YAD-91-HHIE-160003 </span> 
+                <br>
+                for the location of the Wet Gas Meter.
+
+                </p>
+                <div id="p1" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame1()" class="btn btn-primary">
+                <a href="#" id="p1-hide" class="hideLink" onclick="showHide('p1');myFrame1();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame1" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+          <div class="" style="margin-top: 80px">
+           <h2><span>SECTION 2  SYSTEM / EQUIPMENT DETAILED DESCRIPTION</span></h2>
+           <h3><span>2.1.  SYSTEM  DESCRIPTION</span></h3>
+
+           
+           <p>
+            See Drawing<br> 
+             “Wellhead Platform – WP4-Wet Gas Meter” -  <span style="cursor: pointer; color:blue;" id="p2-show" class="showLink">MM-YAD-91-HHIE-150106</span>  - Rev 05<br><br>
+
+             <div id="p2" class="more">
+              <p>
+
+               <input type="button" value="Reset" onclick="myFrame2()" class="btn btn-primary">
+              <a href="#" id="p2-hide" class="hideLink" onclick="showHide('p2');myFrame2();return false;">Hide image</a>
+              </p>
+
+              <div style="overflow: hidden;">
+              <iframe name="frame2" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                
+              </div>
+            </div>
+
+
+
+
+
+             The meter measures the wet gas flow using 4 individual “raw” measurements: pressure and temperature which is essential to the wet gas properties, differential pressure over a cone to measure flow and microwaves to measure water. In addition hydrocarbon calculation based on equations of state and PVT input gives densities and GOR. Based on this, the meter calculates individual flow rates of gas, condensate, and water.<br><br>
+
+             Information’s are sent to PCS and can be retrieved from QP2-CR or from WP4 Instrument Shelter HMI.<br><br>
+
+             <b>Technical Data</b><br>
+
+
+
+           <table style="margin-left: 140px" align="center" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:none; margin-left:1.0cm; width:426px">
+          <thead>
+          <tr style="page-break-inside:avoid;">
+          <th style="width:223px;border:solid windowtext 1.0pt;background:silver;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><strong><span style="layout-grid-mode:line">Tag</span></strong></p>
+          </th>
+          <th style="width:203px;border:solid windowtext 1.0pt;border-left:none;background:silver;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><strong><span style="layout-grid-mode:line">X-0040</span></strong></p>
+          </th>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <th style="width:223px;border:solid windowtext 1.0pt;border-top:none;background:silver;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><strong><span style="layout-grid-mode:line">Description</span></strong></p>
+          </th>
+          <th style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:silver;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><strong><span style="layout-grid-mode:line">Wet Gas Meter</span></strong></p>
+          </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Type</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">Cone</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Supplier / Manufacturer</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">Roxar</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Product</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">Gas</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Design pressure (barg)</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">116.5 barg @ 38deg &deg;C</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Operating pressure (barg)</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">71.9 barg (max) / 18.7 barg (mini)</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Design temperature &deg;C</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">-40 to 150 deg &deg;C</span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Operating range Water Cut</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">0 &ndash; 50% (for GVF&lt;99%) </span></p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Operating range GVF</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p>95% to 100% &nbsp;(Project Specifications)</p>
+          </td>
+          </tr>
+          <tr style="page-break-inside:avoid;">
+          <td style="width:223px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 3.55pt 0cm 3.55pt;vertical-align:top;">
+          <p><span style="layout-grid-mode:line">Body and Cone material</span></p>
+          </td>
+          <td style="width:203px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 3.55pt 0cm 3.55pt;">
+          <p><span style="layout-grid-mode:line">Duplex Steel UNS S31803/A479</span></p>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+
+<div id="3.1"></div>
+          </p>
+      
+
+  
+          </div> <!-- section 2 ends here -->
+
+ 		<div class="" style="margin-top: 80px">
+         	<h2><span>SECTION 3 INSTRUMENTATION, CONTROL AND SHUTDOWN</span></h2>
+         	
+
+           <h3><span>3.1. CONTROL DESCRIPTION</span></h3>
+           <p><span><b>3.1.1  Test</b></span></p><div id="3.2"></div>
+           <p>Before starting the test of one well, operator shall choose the duration of the test, with one timer on test separator graphic view. To start the test, Operator shall press the soft push button on the HMI  (or QP2-CR DCS) which is
+            <ul style="margin-left: 60px">
+              <li>“START WELL 1 TEST”, START WELL 2 TEST”, etc.</li>
+            </ul>
+            Upon activation of this command, close command are given to production manifold switching valve and after some delay open command is sent to the test manifold switching valve.<br>
+            The purpose is to avoid valve production and test valve can be closed or opened simultaneously.<br><br>
+            When Production valve is closed and test valve is opened, test duration timer are starting, and when well test is finished test timer duration is stopped.<br><br>
+            Wet gas meter provides only flowrate (gas, condensate, water). Totalizer of flowrate is indicated in PCS display.<br><br>
+            When operator change the well number to be tested, currently displayed test separator data are transferred to another display called “LAST TEST RESULT”.
+
+           </p>
+           
+
+ 
+
+        
+
+          
+     
+
+           <p><span><b>3.1.2  Control system</b></span></p>
+           <p><div id="3.2"></div>
+           	The Data’s transferred from the Wet Gas Meter to PCS are as follows:
+            <ul style="margin-left: 60px">
+              <li> <span style="cursor: pointer; color:blue;" id="p3-show" class="showLink">PI-50101:</span>  Pressure Indicator</li>
+
+              <div id="p3" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame3()" class="btn btn-primary">
+                <a href="#" id="p3-hide" class="hideLink" onclick="showHide('p3');myFrame3();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame3" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+              <li> <span style="cursor: pointer; color:blue;" id="p4-show" class="showLink">TI-50102:</span>  Temperature Indicator</li>
+
+
+              <div id="p4" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame4()" class="btn btn-primary">
+                <a href="#" id="p4-hide" class="hideLink" onclick="showHide('p4');myFrame4();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame4" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+              <li><span style="cursor: pointer; color:blue;" id="p5-show" class="showLink">FI-50104:</span>   Gas Flow Indicator</li>
+
+              <div id="p5" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame5()" class="btn btn-primary">
+                <a href="#" id="p5-hide" class="hideLink" onclick="showHide('p5');myFrame5();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame5" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+              <li> <span style="cursor: pointer; color:blue;" id="p6-show" class="showLink">FQI-50104:</span>   Total Gas flow Indicator</li>
+
+
+              <div id="p6" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame6()" class="btn btn-primary">
+                <a href="#" id="p6-hide" class="hideLink" onclick="showHide('p6');myFrame6();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame6" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+              <li> <span style="cursor: pointer; color:blue;" id="p7-show" class="showLink">FI-50105:</span>  Condensate Flow Indicator</li>
+
+
+              <div id="p7" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame7()" class="btn btn-primary">
+                <a href="#" id="p7-hide" class="hideLink" onclick="showHide('p7');myFrame7();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame7" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+              <li><span style="cursor: pointer; color:blue;" id="p8-show" class="showLink">FQI-50105: </span>    Total Condensate flow Indicator</li><div id="3.3"></div>
+
+
+              <div id="p8" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame8()" class="btn btn-primary">
+                <a href="#" id="p8-hide" class="hideLink" onclick="showHide('p8');myFrame8();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame8" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+              <li> <span style="cursor: pointer; color:blue;" id="p9-show" class="showLink">FI-50106: </span>   Water Flow Indicator</li>
+
+
+              <div id="p9" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+                <a href="#" id="p9-hide" class="hideLink" onclick="showHide('p9');myFrame9();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame9" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+
+
+              <li> <span style="cursor: pointer; color:blue;" id="p10-show" class="showLink">FQI-50106:  </span>  Total Water flow Indicator</li>
+
+
+              <div id="p10" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame10()" class="btn btn-primary">
+                <a href="#" id="p10-hide" class="hideLink" onclick="showHide('p10');myFrame10();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame10" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+
+
+              <li><span style="cursor: pointer; color:blue;" id="p11-show" class="showLink"> XA-50107: </span>  Common Fault</li><div id="3.4"></div>
+
+              <div id="p11" class="more">
+                <p>
+
+                 <input type="button" value="Reset" onclick="myFrame11()" class="btn btn-primary">
+                <a href="#" id="p11-hide" class="hideLink" onclick="showHide('p11');myFrame11();return false;">Hide image</a>
+                </p>
+
+                <div style="overflow: hidden;">
+                <iframe name="frame11" src="ima/P&ID/91-150112/91-150112/Grp_91-150112.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+                  
+                </div>
+              </div>
+
+            </ul>
+           </p>
+
+           <h3><span>3.2. SYSTEM CONTROL AND SET-POINT</span></h3>
+           <p>Not applicable</p><div id="3.5"></div>
+
+
+
+           	<h3><span><b>3.3. INDICATORS AND ALARM SETTINGS</b></span></h3>
+           	<p>
+           		Not applicable
+           	</p><div id="3.6"></div>
+
+
+
+            <h3><span>3.4.  TRIP SETTINGS</span></h3>
+            <p>Not applicable</p>
+
+
+
+            <h3>3.5.  PRESSURE SAFETY VALVES SETTINGS</h3>
+            <p>Not applicable</p><div id="4.1"></div>
+
+
+
+
+           	<h3><span><b>3.6.  LIST OF VALVES</b></span></h3>
+           	<p>Not applicable</p><div id="4.2"></div>
+
+
+
+         </div> <!-- section 3 -->
+
+         <div class="" style="margin-top: 80px">
+         	<h2><span>SECTION 4 OPERATING MODES</span></h2>
+          
+            <h3><span>4.1.  OPERATING MODES</span></h3>
+            <div id="4.3"></div>
+            <p>Well test operation can be remotely controlled from the QP2 Control Room or from the WP4 HMI on the PCS cabinet of the Instrument Shelter.
+            
+
+            </p>
+
+
+
+            <h3><span><b>4.2.	NORMAL START-UP</b></span></h3>
+            
+            <p>Start of a Test is done through the DCS using the dedicated interface either from QP2-CR or from HMI.</p><br><div id="4.4"></div>
+
+
+            <h3><span><b>4.3. NORMAL OPERATIONS</b></span></h3>
+            <div id="4.5"></div>
+            <p>The normal well test operations are performed from the QP2-CR except if the differential pressure alarm PDAH-50001 is activated, indicating a permanent depressurization of the test manifold, which has to be investigated (leak not detectable by the gas detectors, drain valve to Closed Drain system not fully closed or passing)</p>
+
+
+            <h3><span><b>4.4.	 NORMAL SHUTDOWN</b></span></h3>
+            <p>Not applicable</p>
+
+
+            <h3><span><b>4.5.	EMERGENCY SHUTDOWN</b></span></h3>
+            <p>Not applicable</p><div id="5.1"></div>
+
+
+         </div> <!-- section 4 ends here -->
+
+
+
+         <div class="" style="margin-top: 60px">
+         	<h2><span>SECTION 5	HSE REQUIREMENTS</span></h2>
+          <div id="5.2"></div>
+            <h3><span>5.1		HEALTH</span></h3>
+            <p><span><b>5.1.1 Personal Protective Equipment</b></span></p>
+            <p>No requirement for Chemical Hazard protective equipment can be identified.</p>
+
+            <p><span><b>5.2.  SAFETY</b></span></p>
+            <p>5.2.1	Personal Protective Equipment</p>
+            <p>The personal Protective equipment should be worn at all time while on site.</p>
+<div id="5.3"></div>
+
+            <p><span><b>5.2.2	Chemical Hazards</b></span></p>
+            <p>Not applicable</p>
+
+
+            <p><span><b>5.2.3	Hazardous sources</b></span></p>
+            <p>
+            	<table style="width: 100%">
+            		<tr>
+            			<th>Hazard</th>
+            			<th>Source</th>
+            			<th>Hazardous Event</th>
+            			<th>Effect</th>
+            			<th>Control</th>
+            		</tr>
+
+                <tr>
+                  <td>Fluid under pressure</td>
+                  <td>Throughout system</td>
+                  <td>Uncontrolled release of energy</td>
+                  <td>Potential for personnel injury</td>
+                  <td>Routine inspections</td>
+                </tr>
+
+                <tr>
+                  <td>gaseous Hydrocarbons</td>
+                  <td>Throughout system</td>
+                  <td>potential for gas release and fire/explosion</td>
+                  <td>Potential for personnel injury </td>
+                  <td>Fire and Gas detection</td>
+                </tr>
+
+            		
+
+
+            	</table>
+            </p>
+
+
+            
+            
+
+
+            <h3><span><b>5.3	ENVIRONMENT</b></span></h3>
+            <p><span><b>5.3.1	Waste</b></span></p>
+            <p>Not applicable</p>
+
+         </div> <!-- section 4 ends here -->
+
+
+
+
+</div>
+ 
+          
+
+        
+        <div class="article" style="padding:5px 10px 2px 30px;">
+          
+          <p><b>CHAPTER 13 : EXTRACTION WELLS & FLOWLINES – WET GAS METER</b></p>
+
+        </div>
+      </div>
+      <div class="sidebar">
+       <div class="gadget">
+          
+          
+          
+          <h4>CHAPTERS</h4>
+         
+          
+     
+             
+          
+          
+          <ul class="sb_menu" id="style" id="style" style="overflow: scroll;height: 810px; margin: left; width: 250px;">
+      <b>         
+            <li><a href="Chapter 1_final.html">CHAPTER 1</a></li>
+            <li><a href="Chapter 2_final.html">CHAPTER 2</a></li>
+            <li><a href="Chapter 3_final.html">CHAPTER 3</a></li>
+            <li><a href="Chapter 4_final.html">CHAPTER 4</a></li>
+            <li><a href="Chapter 5_final.html">CHAPTER 5</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 6</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 7</a></li>
+            <li><a href="Chapter 8_final.html">CHAPTER 8</a></li>
+             <li><a href="Chapter 9_final.html">CHAPTER 9</a></li>
+            <li><a href="Chapter 10_final.html">CHAPTER 10</a></li>
+            <li><a href="Chapter 11_final.html">CHAPTER 10</a></li>
+            <li><a href="Chapter 12_final.html">CHAPTER 12</a></li>
+             <button class="accordion"><strong>CHAPTER 13</strong></button>
+              <div class="panel" id="style" id="style" style="overflow: scroll;height: 600px; margin: left; width: 250px;">
+                <p><a href="Chapter 13_final.html#1.1">1.1. System Overview</a></p>
+               <p><a href="Chapter 13_final.html#2.1">2.1.	SYSTEM DESCRIPTION</a></p>
+               <p><a href="Chapter 13_final.html#3.1">3.1	CONTROL DESCRIPTION</a></p>
+               <p><a href="Chapter 13_final.html#3.2">3.2	SYSTEM CONTROL AND SET POINT</a></p>
+               <p><a href="Chapter 13_final.html#3.3">3.3	INDICATORS AND ALARM SETTINGS</a></p>
+               <p><a href="Chapter 13_final.html#3.4">3.4 TRIP SETTINGS</a></p>
+               <p><a href="Chapter 13_final.html#3.5">3.5 		PRESSURE SAFETY VALVES SETTINGS</a></p>
+               <p><a href="Chapter 13_final.html#3.6">3.6 		LIST OF VALVES</a></p>
+               <p><a href="Chapter 13_final.html#4.1">4.1.	OPERATING MODES</a></p>
+               <p><a href="Chapter 13_final.html#4.2">4.2.	NORMAL START-UP</a></p>
+               <p><a href="Chapter 13_final.html#4.3">4.3.	NORMAL OPERATIONS</a></p>
+               <p><a href="Chapter 13_final.html#4.4">4.4.	 NORMAL SHUTDOWN</a></p>
+               <p><a href="Chapter 13_final.html#4.5">4.5.	EMERGENCY SHUTDOWN</a></p>
+               <p><a href="Chapter 13_final.html#5.1">5.1		HEALTH</a></p>
+               <p><a href="Chapter 13_final.html#5.2">5.2	SAFETY</a></p>
+               <p><a href="Chapter 13_final.html#5.3">5.3	ENVIRONMENT</a></p>
+               
+
+               
+              
+               
+              </div>
+              
+            <li><a href="Chapter 14_final.html">CHAPTER 14</a></li>
+            <li><a href="Chapter 15_final.html">CHAPTER 15</a></li>
+            <li><a href="Chapter 16_final.html">CHAPTER 16</a></li>
+            <li><a href="Chapter 17_final.html">CHAPTER 17</a></li>
+            <li><a href="Chapter 18_final.html">CHAPTER 18</a></li>
+            <li><a href="Chapter 19_final.html">CHAPTER 19</a></li>
+            
+          
+          </b>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+    
+    <div class="footer">
+     
+     <p class="lf"><a href="credits.html">CREDITS</a>.&nbsp;&nbsp;Design by <a target="_blank" href="http://www.spieogs.com/">SPIE Oil &amp; Gas Services ASP Sdn Bhd</a>
+    <img src="pic/spie.jpg" width="85" height="42"></p>
+      <p class="lf"> This site is best viewed with a resolution of 1024x768 (or higher) and supports Firefox 1.0+ and Google Chrome 18+.</p>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+<!-- Drop Down Menu Code Start (Please insert in each page)-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+<!-- Drop Down Menu Code End-->
+
+<script type="text/javascript">
+      
+  /*Menu-toggle*/
+    $("#sb_menu").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

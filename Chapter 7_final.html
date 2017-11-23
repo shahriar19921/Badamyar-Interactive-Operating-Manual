@@ -1,0 +1,736 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+  popupWindow = window.open(
+    url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+
+  // if (document.getElementById(shID)) {
+  //   if (document.getElementById(shID+'-show').style.display != 'none') {
+  //     document.getElementById(shID+'-show').style.display = 'none';
+  //     document.getElementById(shID).style.display = 'block';
+  //   }
+  //   else {
+  //     document.getElementById(shID+'-show').style.display = 'inline';
+  //     document.getElementById(shID).style.display = 'none';
+  //   }
+  // }
+} 
+  
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript" src="showhide.js"></script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+    
+<script>
+function myFrame1() {
+    var ifr = document.getElementsByName('frame1')[0];ifr.src = ifr.src;}
+function myFrame2() {
+    var ifr =document.getElementsByName('frame2')[0];ifr.src = ifr.src;}
+function myFrame3() {
+    var ifr =document.getElementsByName('frame3')[0];ifr.src = ifr.src;}
+function myFrame4() {
+    var ifr =document.getElementsByName('frame4')[0];ifr.src = ifr.src;}
+function myFrame5() {
+    var ifr =document.getElementsByName('frame5')[0];ifr.src = ifr.src;}
+function myFrame6() {
+    var ifr =document.getElementsByName('frame6')[0];ifr.src = ifr.src;}
+  
+
+</script>
+
+<script type="text/javascript" src="js/top.js"></script>
+<style type="text/css">
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+</style>
+
+</head>
+<body>
+<div class="main" style="background-image: url('1073233-black-wood-panels.jpg'); background-attachment: fixed;">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        
+        <div align="center">
+          <a href="index.html">
+            <img src="pic/3 logo_2.png" width="1160" height="70">
+          </a>
+          
+        </div>
+       
+         <!-- <center><a href="index.html"><img src="pic/3 logo_2.png" width="1160" height="70" /></a></center> -->
+      
+      
+      
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="table.html">TABLE OF CONTENT</a></li>
+          <li><a href="list.html">LIST OF P&ID's</a></li>
+        </ul>
+      
+      <!--/search -->
+      </div>
+      <div class="clr"></div>
+      <!--<div class="header_img">-->
+      <!--<img src="images/heder_img.jpg" alt="image" width="960" height="288" /></div>-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
+    </div>
+  </div>
+  
+  <div class="content" >
+    <div class="content_resize">
+      <div class="mainbar">
+        <div id="1.1" class="article">
+         <h1><span>CHAPTER 7	SAFETY & CRITICAL SYSTEM – ELECTRICAL SYSTEM AND UPS</span></h1>
+          <h2><span>SECTION 1 : INTRODUCTION</span></h2>
+          <h3 id="1.1"><span>1.1. SYSTEM  OVERVIEW</span></h3>
+          <p><span><b>1.1.1 Purpose</b></span></p>
+              <p>In normal operations, the electrical power to WP4 platform is fed from the 6.6kV switchboard/MCC (SW-1-1-1) on PP via subsea cable to the step down transformer located on WP4 and 400V switchboard/MCC (SW-41-2 1) which will distribute power to various loads on WP4:
+
+
+            <ul style="margin-left: 60px">
+              <li>Lighting and small power DB (SWLM 41-3-1)</li>
+
+              <li>230V AC UPS (UPS 41-3-1) for telecom with 2 hours autonomy time</li>
+              
+              <li>24V DC UPS (UPS 41-5-1) for Instrument with 90 min. autonomy</li>
+
+              <li>24V DC / 230V AC UPS (NOCP-41-2-1 for Navaids, obstruction lights, foghorn with 96 hours autonomy</li>
+            </ul>
+            In case of shut-down of the normal power supply, a temporary diesel generator,U-0023  (400VAC,3ph, 50Hz) to be connected via power receptacle will be provided as back-up power supply of WP4.<br><br>
+            The Uninterruptible Power Supply (UPS) systems provide a power supply during the transition to Temporary Power Supply, following loss of main power. They also safeguard personnel and maintain operation of safety equipment for specified periods in the event of total power failure or shutdown.
+
+
+                </p>
+
+            
+             <p><span><b>1.1.2 System Criticality</b></span></p>
+                <p>
+                 Electrical system and UPS are a support system critical to the normal, safe operation of the WP4.
+                </p>
+
+                 <p><span><b>1.1.3 Key components</b></span></p>
+                <p>
+                  On WP4 the Electrical and UPS Systems comprise: 
+
+           <ul style="margin-left: 60px">
+             <li>6.6Kv/420V 400KVA Power Transformer TR-41-2-1</li>
+             <li>LV Switch Rack SW-41-2-1</li>
+             <li>400V / 230 V 24 KVA Transformer TR-41-3-1</li>
+             <li>Lighting and Small Power Distribution Board SWLM 41-3-1</li>
+             <li>230V AC UPS (UPS 41-3-1) for telecom with 2 hours autonomy time</li>
+             <li>230V AC Distribution board SW-41-3-1</li>
+             <li>24V DC UPS (UPS 41-5-1) for Instrument with 90 min. autonomy</li>
+             <li>24V DC Distribution Board SW-41-5-1 for  PCS, ESD and F&G Cabinets</li>
+             <li>24V DC / 230V AC UPS (NOCP-41-2-1 for Navaids, obstruction lights, foghorn with 96 hours autonomy</li>
+             <li>One inverter 24 / 230V  and Distribution Board for the Main Lantern 1 to 4</li>
+             <li>One inverter 24 / 230V  and Distribution Board for the Navigation Obstruction Lighting (Crane & Vent)</li>
+             <li>One inverter 24 / 230V  and Distribution Board for the Fog Detector and For Horn at Main Deck</li>
+             <li>One inverter 24 / 230V  and Distribution Board for the Helideck Status Light</li>
+           </ul>
+
+
+                  
+                </p>
+
+                    <p><span><b>1.1.4 Locations</b></span></p>
+                <p style="margin-left: 30px">
+                  Electrical and UPS equipment as mentioned in 1.1.3 are located on the Main Deck East Side
+            
+
+                </p>
+
+                
+                <p><span><b>1.1.5 Interface with other Platforms</b></span></p>
+                <p style="margin-left: 30px">
+                  to WP4 platform is fed from the 6.6kV switchboard/MCC (SW-1-1-1) on PP via subsea cable. 
+                </p>
+
+
+
+
+
+
+
+        <div  class="" style="margin-top: 80px">
+           <h2><span>SECTION 2 : SECTION 2  SYSTEM / EQUIPMENT DETAILED DESCRIPTION</span></h2>
+           <h3><span>2.1  SYSTEM DESCRIPTION</span></h3>
+           <p><span><b>2.1.1  SLD Drawings</b></span></p>
+
+           
+           <p>
+            See Drawings:  WP4 Platform- General Single Line Diagram MM-YAD-90-HHIE-231404
+
+
+            <p><span><b>2.1.2  Control Philosophy</b></span></p>
+            <p>
+              <img style="width: 750px;" src="pic/2.1.2 control phylosophy.png"><br><br>
+              The protective device of HV/LV Power Distribution system involves the intertrip signal from the upstream 6.6kV feeder circuit breaker (unit 7B1) on HV Switchboard/MCC extension on PP to the downstream <br><br>
+              400V AC circuit breaker (Q1) of LV Switchrack (SW-41-2-1) on WP4 platform and vice versa via fiber optic cable through PSS on WP4 and ESD system on PP. <br><br>
+              The tripping of the 6.6kV upstream feeder circuit breaker (unit 7B1) of HV Switchboard / MCC extension on PP will involve direct power shutdown on the downstream 400V AC circuit breaker (Q1) of LV Switchrack (SW-41-2-1) on WP4 platform.<br><br>
+              The interlock device between 6.6kV/420V Power Transformer (TR-41-2-1) and upstream 6.6kV Switchboard/MCC (SW-1-1-1) extension unit (7B1) is operated via key interlock.<br><br>
+              The opening / closing status, unavailable, common alarms and earth fault of upstream feeder circuit breaker (unit 7B1) of HV Switchboard / MCC (SW-1-1-1) extension on PP is monitored through PDC-1-4-1. The ESD signal (XS-49292) for the upstream feeder circuit breaker is initiated upon trip of PP safety bar ESD-0.06.<br><br>
+              On WP4, the opening/closing status, unavailable and common alarms of incomer 400V AC circuit breaker (Q1) on LV Switchrack (SW-41-2-1) are monitored. The ESD signal (XS-58006) for the incomer circuit breaker (Q1) on LV Switchrack (SW-41-2-1) is initiated upon trip of WP4 safety bar ESD-1G.
+
+            </p>
+           
+
+            
+<div id="2.2"></div>
+              
+
+           </p>
+
+           <p><span><b>2.1.3  Technical Data</b></span></p>
+           <p>The LV Switchrack SW-41-2-1 supply electrical power to the following consumers:
+                      <table style="width: 100%">
+            <tr>
+                <th>Switchboard</th>
+                <th>Users</th> 
+                <th>Load rating(kW)</th>
+                
+                
+              </tr>
+
+
+               <tr>
+                <td rowspan="18">SW-41-2-1</td>
+                <td>Welding socket WP4-WS-1</td>
+                <td>35.20</td>
+               
+                
+              </tr>
+
+
+              <tr>
+                <td >Welding socket WP4-WS-2</td>
+                <td>35.20</td>
+                
+                
+              </tr>
+
+               <tr>
+                <td>PM-0040A – Closed Drain Pump A</td>
+                <td>45</td>  
+              </tr>
+
+
+               <tr>
+                <td>PM-0040B – Closed Drain Pump B</td>
+                <td>45</td>  
+              </tr>
+
+               <tr>
+                <td>PM-0042A – VHP System Motor A</td>
+                <td>3</td>  
+              </tr>
+
+
+               <tr>
+                <td>PM-0042B – VHP System Motor B</td>
+                <td>3</td>
+               
+                
+                
+              </tr>
+
+              <tr>
+                <td>PM-0043A – HP System Motor A</td>
+                 <td>13</td>
+              </tr>
+
+               <tr>
+                <td>PM-0043B – HP System Motor B</td>
+                 <td>13</td>
+              </tr>
+
+               <tr>
+                <td>PM-0044A – MP System Motor A</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>PM-0044B – MP System Motor B</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>PM-0045 - DHSV Reservoir Auxiliary Pump</td>
+                <td>1.10</td>
+              </tr>
+
+              <tr>
+                <td>PM-0046A – Corrosion Inhibitor Pump Motor A</td>
+                <td>0.55</td>
+              </tr>
+
+              <tr>
+                <td>PM-0046B – Corrosion Inhibitor Pump Motor B</td>
+                <td>0.55</td>
+              </tr>
+
+               <tr>
+                <td>NOCP-41-2-1 – Nav & Obstruction Lights and Foghorn</td>
+                <td>1.25</td>
+              </tr>
+
+               <tr>
+                <td>TR-41-3-1 - Lighting & Small Power Transformer</td>
+                <td>24.00</td>
+              </tr>
+
+               <tr>
+                <td>UPS-41-3-1 – 230V AC UPS</td>
+                <td>2</td>
+              </tr>
+
+               <tr>
+                <td>UPS-41-5-1 – 24V DC UPS</td>
+                <td>2.21</td>
+              </tr>
+
+               <tr>
+                <td>X-0041 – Platform Crane Motor</td>
+                <td>136.36</td>
+              </tr>
+
+
+
+
+
+            </table>
+
+
+           </p>
+
+           <p>
+             Lighting and Small Power Distribution Board SWLM 41-3-1 supply electrical power to the following consumers:
+
+             <table style="width: 100%">
+               <tr>
+                 <th>Switchboard</th>
+                 <th>Users</th>
+                 <th>Load rating(KVA)</th>
+               </tr>
+
+               <tr>
+                 <td rowspan="8">SWLM-41-3-1</td>
+                 <td>400V AC Switchrack (SW-41-2-1)</td>
+                 <td>248.25</td>
+               </tr>
+
+
+               <tr>
+                 <td>230V AC UPS (SW-41-3-1</td>
+                 <td>2.145</td>
+               </tr>
+
+
+                <tr>
+                 <td>24V DC UPS (SW-41-5-1)</td>
+                 <td>2.378</td>
+               </tr>
+
+               <tr>
+                 <td>Navaid Central Control Panel</td>
+                 <td>1.347</td>
+               </tr>
+
+               <tr>
+                 <td>Welding Socket (Main Deck)</td>
+                 <td>37.811</td>
+               </tr>
+
+                <tr>
+                 <td>Welding Socket (Cellar Deck)</td>
+                 <td>37.811</td>
+               </tr>
+
+               <tr>
+                 <td>Sub-Distribution Board (SWLM 41-3-2)</td>
+                 <td>25.779</td>
+               </tr>
+
+               <tr>
+                 <td>Spare</td>
+                 <td>TBD</td>
+               </tr>
+
+
+
+             </table>
+
+
+
+           </p>
+
+           <p>
+             230V AC Distribution board SW-41-3-1 supply electrical power to the following consumers:
+
+
+             <table style="width: 100%">
+               <tr>
+                 <th>Switchboard</th>
+                 <th>Users</th>
+                 <th>Load rating(W)</th>
+               </tr>
+
+               <tr>
+                 <td rowspan="8">SW-41-3-1</td>
+                 <td>W4-CAC-201 No. 1 Telecom Cabinet</td>
+                 <td>414</td>
+               </tr>
+
+               <tr>
+                 <td>W4-CAC-202 No. 2 Telecom Cabinet</td>
+                 <td>420</td>
+               </tr>
+
+               <tr>
+                 <td>W4-CAC-201 No. 1 Telecom Cabinet</td>
+                 <td>414</td>
+               </tr>
+
+               <tr>
+                 <td>W4-CAC-202 No. 2 Telecom Cabinet</td>
+                 <td>420</td>
+               </tr>
+
+               <tr>
+                 <td>W4-TJB-301A Junction Box  for Telephone Sounder & Beacon</td>
+                 <td>120</td>
+               </tr>
+
+               <tr>
+                 <td>W4-TJB-201A Junction Box  for Telephone Sounder & Beacon</td>
+                 <td>120</td>
+               </tr>
+
+               <tr>
+                 <td>W4-WRA-101 Wavemeter Radar</td>
+                 <td>80</td>
+               </tr>
+
+               <tr>
+                 <td>W4-RBS-501/JB Junction Box Crane Radio System</td>
+                 <td>65</td>
+               </tr>
+
+
+
+             </table>
+           </p>
+
+
+           <p>
+             24V DC Distribution Board SW-41-5-1 supply electrical power to the following consumers
+
+             <table style="width: 100%">
+               <tr>
+                 <th>Switchboard</th>
+                 <th>Users</th>
+                 <th>Load rating(W)</th>
+               </tr>
+
+               <tr>
+                 <td rowspan="6">SW -41-5-1</td>
+                 <td>PCS-5-SC-501 PCS System Cabinet</td>
+                 <td>964</td>
+               </tr>
+
+               <tr>
+                 <td>PSS-5-MC-501 ESD System</td>
+                 <td>747</td>
+               </tr>
+
+                <tr>
+                 <td>PSS-5-MC-503 F&G System</td>
+                 <td>733</td>
+               </tr>
+
+
+               <tr>
+                 <td>PCS-5-SC-501 PCS System Cabinet</td>
+                 <td>964</td>
+               </tr>
+
+
+                <tr>
+                 <td>PSS-5-MC-501 ESD System</td>
+                 <td>747</td>
+               </tr>
+
+
+               <tr>
+                 <td>PSS-5-MC-503 F&G System</td>
+                 <td>733</td>
+               </tr>
+
+
+
+
+
+
+
+             </table>
+
+           </p>
+
+
+           <p>
+             230V AC from 24V NOCP Navaid UPS
+
+
+
+             <table style="width: 100%">
+               <tr>
+                 <th>Switchboard</th>
+                 <th>Users</th>
+                 <th>Load rating(W)</th>
+               </tr>
+
+
+               <tr>
+                 <td rowspan="9">230V AC from 24V NOCP Navaid UPS</td>
+                 <td>WP4-MNL-W1 Main Lantern 1 Main deck</td>
+                 <td>12</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-MNL-W2 Main Lantern 2 Main deck</td>
+                 <td>12</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-MNL-W3 Main Lantern 3 Main deck</td>
+                 <td>12</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-MNL-W4 Main Lantern 4 Main deck</td>
+                 <td>12</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-AOL-R1-Naviation Obstruction lighting (Crane) Weather deck</td>
+                 <td>5</td>
+               </tr>
+
+
+               <tr>
+                 <td>WP4-AOL-R2-Naviation Obstruction lighting (Crane) Weather deck</td>
+                 <td>5</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-HF-1 Foghorn Main deck</td>
+                 <td>80</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-HF-1 Fog Detector Main deck</td>
+                 <td>7</td>
+               </tr>
+
+               <tr>
+                 <td>WP4-HSL-R1 Helideck Status Light Weather deck</td>
+                 <td>35</td>
+               </tr>
+
+
+
+             </table>
+           </p>
+
+          
+          </div> <!-- section 2 ends here -->
+
+           
+
+
+</div>
+
+
+        
+        <div class="article" style="padding:5px 10px 2px 30px;">
+          
+          <p><b>CHAPTER 7 : SAFETY & CRITICAL SYSTEM – ELECTRICAL SYSTEM AND UPS</b></p>
+
+        </div>
+      </div>
+      <div class="sidebar">
+       <div class="gadget">
+          
+          
+          
+          <h4>CHAPTERS</h4>
+         
+          
+     
+             
+          
+          
+          <ul class="sb_menu" id="style" id="style" style="overflow: scroll;height: 810px; margin: left; width: 250px;">
+      <b>         
+            <li><a href="Chapter 1_final.html">CHAPTER 1</a></li>
+            <li><a href="Chapter 2_final.html">CHAPTER 2</a></li>
+            <li><a href="Chapter 3_final.html">CHAPTER 3</a></li>
+            <li><a href="Chapter 4_final.html">CHAPTER 4</a></li>
+            <li><a href="Chapter 5_final.html">CHAPTER 5</a></li>
+            <li><a href="Chapter 6_final.html">CHAPTER 6</a></li>
+             <button class="accordion"><strong>CHAPTER 7</strong></button>
+              <div class="panel">
+                <p><a href="Chapter 7_final.html#1.1">1.1. System Overview</a></p>
+               <p><a href="Chapter 7_final.html#2.1">2.1 System Description</a></p>
+              
+               
+              
+               
+              </div>
+            <li><a href="Chapter 8_final.html">CHAPTER 8</a></li>
+            <li><a href="Chapter 9_final.html">CHAPTER 9</a></li>
+            <li><a href="Chapter 10_final.html">CHAPTER 10</a></li>
+            <li><a href="Chapter 11_final.html">CHAPTER 11</a></li>
+            <li><a href="Chapter 12_final.html">CHAPTER 12</a></li>
+             <li><a href="Chapter 13_final.html">CHAPTER 13</a></li>
+            <li><a href="Chapter 14_final.html">CHAPTER 14</a></li>
+            <li><a href="Chapter 15_final.html">CHAPTER 15</a></li>
+            <li><a href="Chapter 16_final.html">CHAPTER 16</a></li>
+            <li><a href="Chapter 17_final.html">CHAPTER 17</a></li>
+            <li><a href="Chapter 18_final.html">CHAPTER 18</a></li>
+            <li><a href="Chapter 19_final.html">CHAPTER 19</a></li>
+          
+          </b>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+    
+    <div class="footer">
+     
+     <p class="lf"><a href="credits.html">CREDITS</a>.&nbsp;&nbsp;Design by <a target="_blank" href="http://www.spieogs.com/">SPIE Oil &amp; Gas Services ASP Sdn Bhd</a>
+    <img src="pic/spie.jpg" width="85" height="42"></p>
+      <p class="lf"> This site is best viewed with a resolution of 1024x768 (or higher) and supports Firefox 1.0+ and Google Chrome 18+.</p>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+<!-- Drop Down Menu Code Start (Please insert in each page)-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+<!-- Drop Down Menu Code End-->
+
+<script type="text/javascript">
+      
+  /*Menu-toggle*/
+    $("#sb_menu").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

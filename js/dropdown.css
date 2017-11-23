@@ -1,0 +1,29 @@
+.anylinkcss{
+position:absolute;
+visibility: hidden;
+border:1px solid #7F9DB9;
+border-bottom-width: 1;
+font:normal 11px Tahoma;
+line-height: 15px;
+z-index: 100;
+background-color: #DBE4EE;
+width: 130px;
+}
+
+.anylinkcss a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid white;
+padding: 1px;
+text-decoration: none;
+COLOR: #333333;
+font-weight: normal;
+text-indent: 5px;
+}
+
+.anylinkcss a:hover{ /*hover background color*/
+background-color: #316AC5;
+color: #FFFFFF;
+}
+}

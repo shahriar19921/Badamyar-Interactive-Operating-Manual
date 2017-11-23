@@ -1,0 +1,1740 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+  popupWindow = window.open(
+    url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+
+  // if (document.getElementById(shID)) {
+  //   if (document.getElementById(shID+'-show').style.display != 'none') {
+  //     document.getElementById(shID+'-show').style.display = 'none';
+  //     document.getElementById(shID).style.display = 'block';
+  //   }
+  //   else {
+  //     document.getElementById(shID+'-show').style.display = 'inline';
+  //     document.getElementById(shID).style.display = 'none';
+  //   }
+  // }
+} 
+  
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript" src="showhide.js"></script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+    
+<script>
+function myFrame1() {
+    var ifr = document.getElementsByName('frame1')[0];ifr.src = ifr.src;}
+function myFrame2() {
+    var ifr =document.getElementsByName('frame2')[0];ifr.src = ifr.src;}
+function myFrame3() {
+    var ifr =document.getElementsByName('frame3')[0];ifr.src = ifr.src;}
+function myFrame4() {
+    var ifr =document.getElementsByName('frame4')[0];ifr.src = ifr.src;}
+function myFrame5() {
+    var ifr =document.getElementsByName('frame5')[0];ifr.src = ifr.src;}
+function myFrame6() {
+    var ifr =document.getElementsByName('frame6')[0];ifr.src = ifr.src;}
+  
+
+</script>
+
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/reload_drawing.js"></script>
+<style type="text/css">
+  table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+</style>
+
+</head>
+<body>
+<div class="main" style="background-image: url('1073233-black-wood-panels.jpg'); background-attachment: fixed;">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        
+        <div align="center">
+          <a href="index.html">
+            <img src="pic/3 logo_2.png" width="1160" height="70">
+          </a>
+          
+        </div>
+       
+         <!-- <center><a href="index.html"><img src="pic/3 logo_2.png" width="1160" height="70" /></a></center> -->
+      
+      
+      
+      </div>
+      <div class="clr"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="table.html">TABLE OF CONTENT</a></li>
+          <li><a href="list.html">LIST OF P&ID's</a></li>
+        </ul>
+      
+      <!--/search -->
+      </div>
+      <div class="clr"></div>
+      <!--<div class="header_img">-->
+      <!--<img src="images/heder_img.jpg" alt="image" width="960" height="288" /></div>-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
+    </div>
+  </div>
+  
+  <div class="content" >
+    <div class="content_resize">
+      <div class="mainbar">
+        <div id="1.1" class="article">
+         <h1><span>CHAPTER 10 SAFETY & CRITICAL SYSTEM – HYDRAULIC POWER UNIT-2</span></h1>
+          <h2><span>SECTION 1 INTRODUCTION</span></h2>
+          <h3 id="1.1"><span>1.1. SYSTEM  OVERVIEW</span></h3>
+          <p><span><b>1.1.1 Purpose</b></span></p>
+              <p>The Hydraulic Power Unit 2 U-0044 is in charge of controlling the opening and closing of the following valves on WP4 via MP and LP Headers:<br><br>
+               MP Header: 
+
+
+            <ul style="margin-left: 60px">
+              <li>Choke Valves  (
+                <span style="cursor: pointer; color:blue;" id="p1-show" class="showLink">PV-51005 </span>
+                ,<span style="cursor: pointer; color:blue;" id="p2-show" class="showLink">PV-52005 </span>,
+                <span style="cursor: pointer; color:blue;" id="p3-show" class="showLink">PV-53005 </span> ,
+                <span style="cursor: pointer; color:blue;" id="p4-show" class="showLink">PV-54005 </span>
+              ).</li>
+              <li>Test / Production Manifolds Switching valves ( 
+                <span style="cursor: pointer; color:blue;" id="p5-show" class="showLink">XV-51023</span>
+                /<span style="cursor: pointer; color:blue;" id="p6-show" class="showLink">51024</span>
+                ,<span style="cursor: pointer; color:blue;" id="p7-show" class="showLink">52023</span> 
+                /<span style="cursor: pointer; color:blue;" id="p8-show" class="showLink">52024</span>
+                ,<span style="cursor: pointer; color:blue;" id="p9-show" class="showLink">53023</span> 
+                /<span style="cursor: pointer; color:blue;" id="p10-show" class="showLink">53024</span>
+                ,<span style="cursor: pointer; color:blue;" id="p11-show" class="showLink">54023</span> 
+                /<span style="cursor: pointer; color:blue;" id="p12-show" class="showLink">54024</span>).</li>
+              
+
+            </ul>
+
+            <div id="p1" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame1()" class="btn btn-primary">
+            <a href="#" id="p1-hide" class="hideLink" onclick="showHide('p1');myFrame1();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame1" src="ima/P&ID/91-150102/91-150102/Grp_91-150102.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+          <div id="p2" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame2()" class="btn btn-primary">
+            <a href="#" id="p2-hide" class="hideLink" onclick="showHide('p2');myFrame2();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame2" src="ima/P&ID/91-150102/91-150102/Grp_91-150102.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p3" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame3()" class="btn btn-primary">
+            <a href="#" id="p3-hide" class="hideLink" onclick="showHide('p3');myFrame3();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame3" src="ima/P&ID/91-150102/91-150102/Grp_91-150102.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+          <div id="p4" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame4()" class="btn btn-primary">
+            <a href="#" id="p4-hide" class="hideLink" onclick="showHide('p4');myFrame4();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame4" src="ima/P&ID/91-150102/91-150102/Grp_91-150102.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p5" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame5()" class="btn btn-primary">
+            <a href="#" id="p5-hide" class="hideLink" onclick="showHide('p4');myFrame5();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame5" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p6" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame6()" class="btn btn-primary">
+            <a href="#" id="p6-hide" class="hideLink" onclick="showHide('p6');myFrame6();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame6" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p7" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame7()" class="btn btn-primary">
+            <a href="#" id="p7-hide" class="hideLink" onclick="showHide('p7');myFrame7();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame7" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+          <div id="p8" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame8()" class="btn btn-primary">
+            <a href="#" id="p8-hide" class="hideLink" onclick="showHide('p8');myFrame8();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame8" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+          <div id="p9" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame9()" class="btn btn-primary">
+            <a href="#" id="p9-hide" class="hideLink" onclick="showHide('p9');myFrame9();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame9" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p10" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame10()" class="btn btn-primary">
+            <a href="#" id="p10-hide" class="hideLink" onclick="showHide('p10');myFrame10();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame10" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+          <div id="p11" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame11()" class="btn btn-primary">
+            <a href="#" id="p11-hide" class="hideLink" onclick="showHide('p11');myFrame11();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame11" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+          <div id="p12" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame12()" class="btn btn-primary">
+            <a href="#" id="p12-hide" class="hideLink" onclick="showHide('p12');myFrame12();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame12" src="ima/P&ID/91-150103/91-150103/Grp_91-150103.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+            LP Header:
+            <ul style="margin-left: 60px">
+              <li>Isolation Valve at Sea line <span style="cursor: pointer; color:blue;" id="p13-show" class="showLink">ESV-50008</span> </li>
+              <li>Shutdown valve on the Corrosion Inhibitor Injection line to Production Manifold <span style="cursor: pointer; color:blue;" id="p14-show" class="showLink">SDV-50037</span> </li>
+            </ul>
+
+
+            <div id="p13" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame13()" class="btn btn-primary">
+            <a href="#" id="p13-hide" class="hideLink" onclick="showHide('p13');myFrame13();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame13" src="ima/P&ID/91-150107/91-150107/Grp_91-150107.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+          <div id="p14" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame14()" class="btn btn-primary">
+            <a href="#" id="p14-hide" class="hideLink" onclick="showHide('p14');myFrame14();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame14" src="ima/P&ID/91-150107/91-150107/Grp_91-150107.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+
+
+                </p>
+
+
+                <p><span><b>1.1.2 System Criticality</b></span></p>
+                <p>The Hydraulic Power Unit 2 is essential for the well’s production, the protection of personnel and equipment on the WP4 wells. Without this system the function of the platform would be inoperable.</p>
+
+
+                <p><span><b>1.1.3 Key components</b></span></p>
+                <p>The Hydraulic Power Unit 2 U-0044 is equipped with the main following components:<br>
+                  <ul style="margin-left: 60px">
+                    <li>MP Hydraulic Pumps P-0044 A/B driven by electric motors.</li>
+                    <li>MP manual Hydraulic Pump P-0044 C provided as back-up.</li>
+                    <li>Reserve and Return Hydraulic Oil Tank (T-0044).</li>
+                    <li>MP supply and return header </li>
+                    <li>LP supply and return header</li>
+                    <li>One set of four 54 L accumulators for the MP header.</li>
+                    <li>One set of two 5 L accumulators for the LP header.</li>
+                    <li>Suction Strainers at the suction of each Pump</li>
+                    <li>Dual filters (Max. 5 micron), with manual change over, purge valve, local clogging indicator and clogging alarm are installed downstream of the pumps.</li>
+                  </ul>
+                </p>
+
+
+
+                <p><span><b>1.1.4 Locations</b></span></p><div id="2.1"></div>
+                <p>See Drawing “Plot Plan Main Deck” <span style="cursor: pointer; color:blue;" id="p15-show" class="showLink">MM-YAD-91-HHIE-160003</span> for the location of the HPU-2 at the center of the Main Deck.</p>
+
+
+
+                <div id="p15" class="more">
+            <p>
+
+             <input type="button" value="Reset" onclick="myFrame15()" class="btn btn-primary">
+            <a href="#" id="p15-hide" class="hideLink" onclick="showHide('p15');myFrame15();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+            <iframe name="frame15" src="ima/P&ID/91-160003/91-160003/Grp_91-160003.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+              
+            </div>
+          </div>
+
+
+                 
+
+                
+
+                
+              
+
+
+
+          <div class="" style="margin-top: 80px">
+           <h2><span>SECTION 2  SYSTEM / EQUIPMENT DETAILED DESCRIPTION</span></h2>
+           <h3><span>2.1. EQUIPMENT DESCRIPTION</span></h3>
+
+           
+           <p>
+            See Drawing<br> 
+            "Hydraulic Power Unit– P&ID for WP4–U-0044 -  MM-YAD-36-HH19-422056  - Rev 05
+          </p>
+
+               
+
+          
+
+          
+
+          <p><span><b>2.1.1 Hydraulic Pump P-0044A/B, (MP)</b></span></p>
+          <p>The HPU2 is equipped with one set of two hydraulic pumps P-0044 (radial piston type) in duty/standby mode (2x100%). The hydraulic pumps are driven by electric motors. The local control for the electric motor is performed by two start/stop push buttons. One emergency stop push button is provided for each pump. The local controls are installed on the front face of the HPU. <br><br>
+
+
+          The local/remote and duty/standby selectors are provided in the Process Control System (PCS). The pumps are connected to the hydraulic tank and a suction strainer is installed between the tank and pump. The discharge line is equipped with a discharge header, non-return valves and dual filters (Max. 5 micron), with manual change over, purge valve, local clogging indicator and clogging alarm. <br><br>
+
+          The pumps are capable of running at the maximum working pressure of the valve actuators.  <br><br>
+
+
+          The pumps are sized to fully charge accumulators:<br>
+          <ul style="margin-left: 60px">
+            <li>from zero (0 barg) to minimum pressure (85 barg) within 3.78 minutes.</li>
+            <li>from the minimum pressure (85 barg) to the maximum operating pressure (110 barg) within 5.83 minutes.</li>
+          </ul>
+          A Hand Pump (P-0044C) is supplied to back up the main hydraulic generation system.
+          </p>
+
+           
+   
+
+
+          <p><span><b>2.1.2 Reserve and Return Tank T-0044</b></span></p>
+          <p>The main reservoir (reserve tank) is sized to contain 150% of the complete cold fill of the hydraulic system, including the volumes of the valve actuators, hydraulic accumulators, headers and hydraulic lines to valves. The Main reservoir oil volume is 642.8 liters. The filling system is provided with a captive plug and filter. The filter shall be easy accessible for maintenance. The hydraulic oil used is Total Equivis ZS 15 or equivalent. <br><br>
+
+          The oil return reservoir is sized to contain 150% of the total volume of all valves actuators. Return reservoir oil volume is 54.9 liters. The tank comprises of a settlement chamber, which receives the return fluid separated from the main reservoir by a weir. An outlet pipe from the return chamber is connected to the reserve tank through a filter to allow fluid to return to the reserve tank via gravity flow. The filter is isolatable for ease of maintenance.<br><br>
+          Each tank (reserve tank and return tank) are equipped with a flame breather arrestor.
+
+          </p>
+
+          <p><span><b>Technical Data</b></span></p>
+          <p>
+            <table style="width: 100%">
+              <tr>
+                <th style="background: rgb(192,192,192)">Tag</th>
+                <th colspan="2" style="background: rgb(192,192,192)">T-0044</th>
+                
+              </tr>
+
+              <tr>
+                <th style="background: rgb(192,192,192)">Description</th>
+                <th style="background: rgb(192,192,192)">Return Tank</th>
+                <th style="background: rgb(192,192,192)">Reserve Tank</th>
+              </tr>
+
+              <tr>
+                <td>Type</td>
+                <td colspan="2">Tank</td>
+              </tr>
+
+              <tr>
+                <td>Supplier / Manufacturer</td>
+                <td colspan="2">Wilmax</td>
+              </tr>
+
+
+              <tr>
+                <td>Product</td>
+                <td colspan="2">Hydraulic Oil Total Equivis ZS 15</td>
+              </tr>
+
+              <tr>
+                <td>Design pressure (barg)</td>
+                <td>atm</td>
+                <td>atm</td>
+              </tr>
+
+              <tr>
+                <td>Operating pressure (barg)</td>
+                <td>atm</td>
+                <td>atm</td>
+              </tr>
+
+
+              <tr>
+                <td>Width (mm)</td>
+                <td>150</td>
+                <td>950</td>
+              </tr>
+
+
+               <tr>
+                <td>Depth (mm)</td>
+                <td>750</td>
+                <td>750</td>
+              </tr>
+
+              <tr>
+                <td>Height (mm)</td>
+                <td>1000</td>
+                <td>1000</td>
+              </tr>
+
+
+
+              
+
+            </table>
+          </p>
+
+
+
+
+
+          
+
+        <p><span><b>2.1.3  Accumulators </b></span></p>
+        <p>A set of 4 x 54 L accumulators  for the MP Header and a set of 2 x 5 L accumulators  for the LP Header are provided in a separate rack outside HPU. They are pneumatic bladder type inside the accumulator bottle with nitrogen charging medium. A nitrogen refilling system (charging kit & booster pump) is provided in HPU to recharge the nitrogen to 76.5 barg for MP Supply Header & 3 barg for LP Supply header. The accumulator are fitted with double block and bleed valves on the oil side.<br><br>
+        The accumulator is also fitted with isolation, drain and relief valves on the oil side to permit replacement without causing a complete system shutdown.<br><br>
+        The tank is equipped with a flame arrestor breather IP 45. 
+
+        </p>
+
+  
+          </div> <!-- section 2 ends here -->
+
+ 		<div id="3.1" class="" style="margin-top: 60px">
+         	<h2><span>SECTION 3 INSTRUMENTATION, CONTROL AND SHUTDOWN</span></h2>
+         	<p>See Drawing<br><br>
+        "Hydraulic Power Unit– P&ID for WP4–U-0044 -  MM-YAD-36-HH19-422056  - Rev 05
+
+			</p>
+			<p>Wellhead Platform – WP4 ESD System – ESD Logic Diagram - 
+      <span style="cursor: pointer; color:blue;" id="p16-show" class="showLink">MM-YAD-91-HHIE-120002-01</span>  and <span style="cursor: pointer; color:blue;" id="p17-show" class="showLink">MM-YAD-91-HHIE-120002-02</span> – Rev 05</p>
+
+
+            <div id="p16" class="more">
+
+        <p>
+           <input type="button" value="Reset" onclick="myFrame16()" class="btn btn-primary">
+        <a href="#" id="p16-hide" class="hideLink" onclick="showHide('p16');return false;">Hide image</a>
+        </p>
+
+        <div style="overflow: hidden;">
+          <iframe name="frame16" src="ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+        </div>
+      </div>
+
+
+
+
+      <div id="p17" class="more">
+      <p>
+
+       <input type="button" value="Reset" onclick="myFrame17()" class="btn btn-primary">
+      <a href="#" id="p17-hide" class="hideLink" onclick="showHide('p17');myFrame17();return false;">Hide image</a>
+      </p>
+
+      <div style="overflow: hidden;">
+      <iframe name="frame17" src="ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+           <h3><span>3.1 CONTROL DESCRIPTION</span></h3>
+           <p><span><b>3.1.1  MP Hydraulic Header</b></span></p>
+           <p>The MP hydraulic Header is pressurized by the Hydraulic Pump P-0044 A and B, driven electrically in duty/standby mode (2x100%). A manual pump P-0044 C is provided as an emergency back-up.</p>
+           <p>The pumps can be operated in local by two start/stop pushbuttons and an emergency stop push button installed on the front face of the Unit  </p>
+           <p>QP2-CR Operator can control the pumps from DCS or WP4 Operator from HMI when the local/remote selector is in remote selection. The local/remote, duty/standby selector is selectable by operator from DCS or from HMI.</p>
+           <p>When duty Pumps P-0044A/B is in automatic remote mode, the hydraulic pump stops at 110 barg and starts when the pressure drops to 90 barg. PIAH-50058 High pressure Alarm activates at 115 barg and low pressure alarm PIAL-50058 activates at 85 barg.</p>
+           <p>The stand-by pump, will start only in case of fault on the duty pump or when the operator will switch the stand-by pump to duty.    </p>
+           <p>Another pressure transmitter PIT-50054 located at the pump discharge activates an ESD-3.7 in the event of pressure alarm high high PAHH-50054 set at 121 barg and activates an ESD-1.02 in case of alarm low low PALL-50054 set at 80 barg.</p>
+
+
+
+           <p>The initiation of the <span style="cursor: pointer; color:blue;" id="p18-show" class="showLink">ESD-3.7</span>  will result in the following action:<br><br>
+
+            <div id="p18" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame18()" class="btn btn-primary">
+            <a href="#" id="p18-hide" class="hideLink" onclick="showHide('p18');myFrame18();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame18" src="ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+            </div>
+
+
+
+
+
+
+           <ul style="margin-left: 60px">
+           	<li>Trip of the MP Hydraulic Pumps P-0044 A/B<br>
+                The initiation of the <span style="cursor: pointer; color:blue;" id="p19-show" class="showLink">ESD-1.02</span>  will result in the following action:
+
+
+            <div id="p19" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame19()" class="btn btn-primary">
+            <a href="#" id="p19-hide" class="hideLink" onclick="showHide('p19');myFrame19();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame19" src="ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+           	<li>Close pipeline ESV-50008</li>
+           	<li>Initiate ESD-2</li>
+            <li>Activate ESD-3.1x</li>
+           	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	 Trip corrosion inhibitor injection pumps P-0046 A/B (XS-58402 A/B)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Close SDV-50037<br>
+           	
+           	<li>Initiate ESD-3.3</li>
+           	<li>Initiate ESD-3.3A</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Trip Closed Drain Pump P-0040 A (XS-58027 A)
+           	<li>Initiate ESD-3.3B</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Trip Closed Drain Pump P-0040 B (XS-58027 B) 
+
+           	<li>Close XY-50067 solenoid valve on ESD-2 Hydraulic Supply Header</li>
+           	<li>Activate ESD-3.4</li>
+
+           	<li>Activate ESD-3.5</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Trip VHP Hydraulic Oil Pumps P-0042 A/B (XS-58056 A/B
+            <li>Activate ESD-3.6</li>
+
+           	
+           	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip HP Hydraulic Oil Pumps P-0043 A/B (XS-58057 A/B
+
+           	<li>Activates ESD-3.7</li>
+           	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Trip MP Hydraulic Oil Pumps P-0044 A/B (XS-58058 A/B)<br>
+ 
+           </ul>
+           </p>
+
+           <p style="margin-top: 30px">
+           	Some others instruments allow to monitor the condition of the MP Header:
+           </p>
+           <p>
+           	<ul style="margin-left: 60px">
+           		<li>PG-50806A installed locally to monitor the discharge pressure of the pump P-0044 A. </li>
+
+           		<li> PG-50806B installed locally to monitor the discharge pressure of the pump P-0044 B.</li>
+
+
+           		<li>PG-50806C installed locally to monitor the discharge pressure of the pump P-0044 C. </li>
+
+
+           		<li>PDG-50801 installed locally to monitor the differential pressure of the filter A or B at the discharge of the pumps P-0044 A/B/C.</li>
+
+
+           		<li>PDIA-50801 set at 6 bar connected to PCS to monitor the differential pressure of the filter A or B at the discharge of the pumps P-0044 A/B/C. </li>
+
+
+           		<li>PG-50054 installed locally to monitor the discharge pressure downstream of the filter.</li>
+
+
+           		<li>PG-50057A installed locally to monitor the pressure of the accumulator A.</li>
+
+
+           		<li>PG-50057B installed locally to monitor the pressure of the accumulator B.</li>
+
+
+           		<li>PG-50057C installed locally to monitor the pressure of the accumulator C.</li>
+
+
+           		<li>PG-50057D installed locally to monitor the pressure of the accumulator D. </li>
+           	</ul>
+           </p>
+
+           <p><span><b>3.1.2	LP Hydraulic Header</b></span></p>
+           <p>
+           	The LP Header is pressurized from the MP Header after reducing the pressure through 1 set of self-regulating pressure valves PCV-50808 A/B (one on line and the other in stand-by) which reduced the pressure to 5 barg. The LP header is used as control medium for the  <span style="cursor: pointer; color:blue;" id="p20-show" class="showLink">ESV-50008</span> and <span style="cursor: pointer; color:blue;" id="p21-show" class="showLink">SDV-50037</span>  local control panels.<br><br>
+           	The pressure transmitter PIT-50082 located on the LP header generates a low pressure alarm PIAL-50082 set at 4 barg and a high pressure alarm PIAH-50082 set at 6 barg.<br><br>
+
+
+            <div id="p20" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame20()" class="btn btn-primary">
+            <a href="#" id="p20-hide" class="hideLink" onclick="showHide('p20');myFrame20();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame20" src="ima/P&ID/91-150107/91-150107/Grp_91-150107.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+
+          <div id="p21" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame21()" class="btn btn-primary">
+            <a href="#" id="p21-hide" class="hideLink" onclick="showHide('p21');myFrame21();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame21" src="ima/P&ID/91-150107/91-150107/Grp_91-150107.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+           	Another pressure transmitter PIT-50085 activates an ESD-3.7 in the event of pressure alarm high high PAHH-50085 set at 8 barg and activates an ESD-1.02 in case of alarm low low PALL-50085 set at 3 barg.<br><br>
+           	The initiation of the <span style="cursor: pointer; color:blue;" id="p22-show" class="showLink">ESD-3.7</span>  will result in the following action:
+
+
+            <div id="p22" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame22()" class="btn btn-primary">
+            <a href="#" id="p22-hide" class="hideLink" onclick="showHide('p22');myFrame22();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame22" src="ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+
+
+
+           	<ul style="margin-left: 60px">
+           		<li>Trip of the MP Hydraulic Pumps P-0044 A/B</li>
+           		The initiation of the <span style="cursor: pointer; color:blue;" id="p23-show" class="showLink">ESD-1.02</span>   will result in the following action:
+
+
+              <div id="p23" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame23()" class="btn btn-primary">
+            <a href="#" id="p23-hide" class="hideLink" onclick="showHide('p23');myFrame23();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame23" src="ima/P&ID/91-120002/91-120002-01/Grp_91-120002-01.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+
+
+
+
+
+           		<li>Close pipeline ESV-50008x</li>
+           		<li>Initiate ESD-2</li>
+
+           		<li>Activate ESD-3.1x</li>
+           		
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Close XY-5X018 solenoid valve on ESD-3 hydraulic supply header
+           		<li>Activate ESD-3.2</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip corrosion inhibitor injection pumps P-0046 A/B (XS-58402 A/B)
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+              Close SDV-50037
+
+           		<li>Initiate ESD-3.3</li>
+           		<li>Initiate ESD-3.3A</li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+              Trip Closed Drain Pump P-0040 A (XS-58027 A)
+
+           		<li>Initiate ESD-3.3B</li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Trip Closed Drain Pump P-0040 B (XS-58027 B)
+
+           		<li>Activate ESD-3.4</li>
+           		<li>Activate ESD-3.5</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip VHP Hydraulic Oil Pumps P-0042 A/B (XS-58056 A/B
+           		<li>Activate ESD-3.6</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip HP Hydraulic Oil Pumps P-0043 A/B (XS-58057 A/B
+           		<li>Activates ESD-3.7</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip MP Hydraulic Oil Pumps P-0044 A/B (XS-58058 A/B)
+           	</ul>
+
+           </p>
+
+
+
+
+
+
+
+
+           <p>
+           	Some others instruments allow to monitor the condition of the LP Header:
+           	<ul style="margin-left: 60px">
+
+           		<li>PG-50086 installed locally to monitor the pressure of the LP header after the PCV-50808 A/B.</li>
+           		<li>PG-50089A installed locally to monitor the pressure of the accumulator A.</li>
+           		<li>PG-50089B installed locally to monitor the pressure of the accumulator B. </li>
+
+           	</ul>
+           </p>
+
+           	<p><span><b>3.1.3	Reserve and Return tank T-0044 – Level control</b></span></p>
+           	<p>Two electronic level smart type transmitters LIT-50083A and LIT-50083B connected with the PCS (via a junction box) for monitoring and High and Low Level Alarm are provided on each tank (LIT-50083A on the Reserve Tank and LIT-50083B on the Return Tank.</p>
+
+           	
+           	<p>LIT-50083A generates a low level alarm LIAL-50083A at 25%, and a high level alarm LIAH-50083A at 90% (zero point is at 50 mm from reservoir bottom).<br><br>
+
+           	One electronic transmitter LIT-50084 located on the Reserve Tank and connected to the PSS (via a junction box) activates a low low level alarm  LALL-50084 at oil level 15% (zero point is at 50 mm from reservoir bottom) and trigger an <span style="cursor: pointer; color:blue;" id="p24-show" class="showLink">ESD 3.7</span>  which activates the following action:<br><br>
+
+
+
+            <div id="p24" class="more">
+
+            <p>
+               <input type="button" value="Reset" onclick="myFrame24()" class="btn btn-primary">
+            <a href="#" id="p24-hide" class="hideLink" onclick="showHide('p24');myFrame24();return false;">Hide image</a>
+            </p>
+
+            <div style="overflow: hidden;">
+              <iframe name="frame24" src="ima/P&ID/91-120002/91-120002-02/Grp_91-120002-02.htm" alt="" class="ui-draggable ui-draggable-handle" style="display: inline-block; height: 524px; width: 720px;" border="0"></iframe>
+            </div>
+          </div>
+           	
+           	<ul style="margin-left: 60px">
+           		<li>Trip of the MP Hydraulic Pumps P-0044 A/B</li>
+
+
+
+           		Some others instruments allow to monitor the condition of the LP Header:
+           		<li>PG-50051A installed locally to monitor the pressure of the LP header after the PCV-50066 A/B.</li>
+           		<li>PG-50098A installed locally to monitor the pressure of the accumulator A.</li>
+           		<li>PG-50098B installed locally to monitor the pressure of the accumulator B.</li>
+           		<li>PG-50051 to monitor the ESD-1 header Pressure. Mounted on the WHCP front panel </li>
+           		<li>PG-50053 to monitor the ESD-2 header Pressure. Mounted on the WHCP front panel </li>
+           	</ul>
+           	</p>
+
+           	<p><span><b>ESD-2 Supply Header</b></span></p>
+           	<p>The pressure transmitter PIT-50052 located on the ESD-2 header generates a low pressure alarm PIAL-50052 set at 4 barg and a high pressure alarm PIAH-50052 set at 6 barg.<br><br>
+           	Another pressure transmitter PIT-50053 located on the ESD-2 header activates an ESD-3.6 in the event of pressure alarm high high PAHH-50053 set at 6.5 barg and activates an ESD-2 in case of alarm low low PALL-50053 set at 3 barg.<br><br>
+           	The initiation of the ESD-3.6 will result in the following action:<br><br>
+           	<ul style="margin-left: 60px">
+           		<li>Trip of the HP Hydraulic Pumps P-0043 A/B</li>
+           		The initiation of the ESD-2 will result in the following action:
+           		<li>Activate ESD-3.1x</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Close XY-5X018 solenoid valve on ESD-3 hydraulic supply header
+           		<li>Activate ESD-3.2</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip corrosion inhibitor injection pumps P-0046 A/B (XS-58402 A/B)<br>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Close SDV-50037
+           		<li>Initiate ESD-3.3</li>
+           		<li>Initiate ESD-3.3A</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip Closed Drain Pump P-0040 A (XS-58027 A)
+           		<li>Initiate ESD-3.3B</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip Closed Drain Pump P-0040 B (XS-58027 B)
+           		<li>Close XY-50067 solenoid valve on ESD-2 Hydraulic Supply Header</li>
+           		<li>Close UMV-51003/52003/53003/54003 with time delay</li>
+           		<li>Close WV-51004/52004/53004/54004</li>
+           		<li>Activate ESD-3.4</li>
+           		<li>Activate ESD-3.5</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip VHP Hydraulic Oil Pumps P-0042 A/B (XS-58056 A/B
+           		<li>Activate ESD-3.6</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip HP Hydraulic Oil Pumps P-0043 A/B (XS-58057 A/B
+           		<li>Activates ESD-3.7</li>
+           		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Trip MP Hydraulic Oil Pumps P-0044 A/B (XS-58058 A/B)
+           	</ul>
+           	</p>
+
+
+           	<p><span><b>3.1.4 Reserve and Return tank T-0042 – Level control</b></span></p>
+           	<p>Two electronic level smart type transmitters LIT-50059 and LIT-50069 connected with the PCS (via a junction box) for monitoring and High and Low Level Alarm are provided on each tank (LIT-50059 on the Reserve Tank and LIT-50069 on the Return Tank.<br><br>
+           	LIT-50059 generates a low level alarm LIAL-50059 at 321 mm oil level (20%), and a high level alarm LIAH-50059 at 1120 mm (85%).<br><br>
+           	LIT-50069 generates as well a low level alarm LIAL-50069 at 321 mm oil level (20%), and a high level alarm LIAH-50069 at 1120 mm (85%).<br><br>
+           	One Electric transmitter LIT-50060 located on the Reserve Tank and connected to the PSS (via a junction box) activates a low low level alarm  LALL-50060 at 198 mm oil level (10%) and trigger an ESD 3.4 which activates the following action:
+           	<ul style="margin-left: 60px"><div id="3.2"></div>
+           		<li>Trip VHP/HP Hydraulic oil pumps (P-0042A/B, P-0043A/B)</li>
+           	</ul>
+           	</p>
+
+
+           	<p><span><b>3.1.5 Dedicated DHSV Return tank T-0043 – Level control</b></span></p>
+           	<p>One electronic level smart type transmitter LIT-50068 connected with the PCS (via a junction box) is installed at the bottom of the T-0043, for monitoring and High and Low Level Alarm (LIAH-50068 and LIAL-50068) set at 1120 mm (85%) and 321 mm (10%) respectively.</p>
+
+           	<p><span><b>3.2.	SYSTEM CONTROL AND SET POINT</b></span></p><div id="3.3"></div>
+           	<p>
+           		<table style="width: 100%">
+           			<tr>
+           				<th style="background: rgb(192,192,192)">Tag</th>
+           				<th style="background: rgb(192,192,192)">Function</th>
+           				<th style="background: rgb(192,192,192)">Set point</th>
+           				<th style="background: rgb(192,192,192)">Action</th>
+           			</tr>
+
+
+           			<tr>
+           				<td>PCV-50808A<br>
+           				PCV-50808B
+           				</td>
+           				<td>Self-regulating pressure control valves for LP Header</td>
+           				<td>5 barg</td>
+           				<td>Self-actuated</td>
+           			</tr>
+           		</table>
+           	</p>
+
+
+           	<p><span><b>3.3.	INDICATORS AND ALARM SETTINGS</b></span></p>
+           	<p>
+           		<table style="width: 100%">
+           			<tr>
+           				<th style="background: rgb(192,192,192)">Tag</th>
+           				<th style="background: rgb(192,192,192)">Function</th>
+           				<th style="background: rgb(192,192,192)">Alarms</th>
+           			</tr>
+
+           			<tr>
+           				<td>PDIAH-50801</td>
+           				<td>Differential Pressure High Indicator and Alarm at Filters A/B </td>
+           				<td>6 bar</td>
+           				
+           			</tr>
+
+           			<tr>
+           				<td>PIAL-50058</td>
+           				<td>MP Supply Header Low pressure Indicator and alarm</td>
+           				<td>85 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAH-50058</td>
+           				<td>MP Supply Header High pressure Indicator and alarm</td>
+           				<td>115 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAL-50082</td>
+           				<td>LP Supply Header Low pressure Indicator and alarm</td>
+           				<td>4 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAH-50082</td>
+           				<td>LP Supply Header High pressure Indicator and alarm</td>
+           				<td>6 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAL-50050</td>
+           				<td>ESD-1 Supply Header Low pressure alarm</td>
+           				<td>4 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAH-50052</td>
+           				<td>ESD-2 Supply Header High pressure alarm</td>
+           				<td>6 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PIAL-50052</td>
+           				<td>ESD-2 Supply Header Low pressure alarm</td>
+           				<td>4 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>LIAH-50068</td>
+           				<td>DHSV Return Reservoir T-0043 High level alarm</td>
+           				<td>1120 mm (85%)</td>
+           			</tr>
+
+           			<tr>
+           				<td>LIAL-50068</td>
+           				<td>DHSV Return Reservoir T-0043 Low level alarm</td>
+           				<td>321 mm (20%)</td>
+           			</tr>
+
+           			<tr>
+           				<td>LIAH-50059</td>
+           				<td>Supply Reservoir T-0042 High level alarm</td>
+           				<td>1120 mm (85%)</td>
+           			</tr>
+
+           			<tr>
+           				<td>LIAL-50059</td>
+           				<td>Supply Reservoir T-0042 Low level alarm</td>
+           				<td>321 mm (20%)</td>
+           			</tr>
+<div id="3.4"></div>
+           			<tr>
+           				<td>LIAH-50069</td>
+           				<td>Return Reservoir T-0042 High level alarm</td>
+           				<td>1120 mm (85%)</td>
+           			</tr>
+
+           			<tr>
+           				<td>LIAL-50069</td>
+           				<td>Return Reservoir T-0042 Low level alarm</td>
+           				<td>321 mm (20%)</td>
+           			</tr>
+           		</table>
+           	</p>
+
+           	<p><span><b>3.4.	TRIP SETTINGS</b></span></p>
+           	<p>
+           		<table style="width: 100%"><div id="3.5"></div>
+           			<tr>
+           				<th style="background: rgb(192,192,192)">Tag</th>
+           				<th style="background: rgb(192,192,192)">Function</th>
+           				<th style="background: rgb(192,192,192)">Settings</th>
+           				<th style="background: rgb(192,192,192)">Automatic action</th>
+           			</tr>
+
+           			<tr>
+           				<td>PAHH-50055</td>
+           				<td>DHSV Supply Header High High Pressure</td>
+           				<td>370 barg</td>
+           				<td>ESD-3.5</td>
+           			</tr>
+
+           			<tr>
+           				<td>PALL-50055</td>
+           				<td>DHSV Supply Header Low Low Pressure</td>
+           				<td>310 barg</td>
+           				<td>ESD-1</td>
+           			</tr>
+
+           			<tr>
+           				<td>PAHH-50061</td>
+           				<td>UMV / WV Supply Header High High Pressure</td>
+           				<td>245 barg</td>
+           				<td>ESD-3.6</td>
+           			</tr>
+
+           			<tr>
+           				<td>PALL-50061</td>
+           				<td>UMV / WV Supply Header Low Low Pressure</td>
+           				<td>120 barg</td>
+           				<td>ESD-2</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>PAHH-50051</td>
+           				<td>ESD-1 Supply Header High High Pressure</td>
+           				<td>6.5 barg</td>
+           				<td>ESD-3.6</td>
+           			</tr>
+
+           			<tr>
+           				<td>PALL-50051</td>
+           				<td>ESD-1 Supply Header Low Low Pressure</td>
+           				<td>3 barg</td>
+           				<td>ESD-1</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>PAHH-50053</td>
+           				<td>ESD-2 Supply Header High High Pressure</td>
+           				<td>6.5 barg</td>
+           				<td>ESD-3.6</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>PALL-50053</td>
+           				<td>ESD-2 Supply Header Low Low Pressure</td>
+           				<td>3 barg</td>
+           				<td>ESD-2</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>LALL-50060</td>
+           				<td>Reserve Tank T-0042 low low level </td>
+           				<td>198 mm (10%)</td>
+           				<td>ESD-3.4</td>
+           			</tr>
+           		</table>
+           	</p>
+
+           	<p><span><b>3.5.	PRESSURE SAFETY VALVES SETTINGS</b></span></p>
+           	<p>
+           		<table style="width: 100%">
+           			<tr>
+           				<th style="background: rgb(192,192,192)">Tag</th>
+           				<th style="background: rgb(192,192,192)">Protected equipment</th>
+           				<th style="background: rgb(192,192,192)">Set point</th>
+           				<th style="background: rgb(192,192,192)">Design case</th>
+           			</tr>
+
+           			<tr>
+           				<td>PSV 50063</td>
+           				<td>Auxiliary Pump P-0045 and pipe</td>
+           				<td>10 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093A</td>
+           				<td>DHSV Pump P-0042 A and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093B</td>
+           				<td>DHSV Pump P-0042 B and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093C</td>
+           				<td>DHSV Pump P-0042 C and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094A</td>
+           				<td>DHSV Pump P-0043 A and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094B</td>
+           				<td>DHSV Pump P-0043 B and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094C</td>
+           				<td>DHSV Pump P-0043 C and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--51001</td>
+           				<td>DHSV actuator well Nr.1 and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52001</td>
+           				<td>DHSV actuator well Nr.2 and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--53001</td>
+           				<td>DHSV actuator well Nr.3 and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--54001</td>
+           				<td>DHSV actuator well Nr.3 and pipe</td>
+           				<td>385 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--51003</td>
+           				<td>UMV actuator well Nr.1 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52003</td>
+           				<td>UMV actuator well Nr.2 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>PSV--53003</td>
+           				<td>UMV actuator well Nr.3 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--54003</td>
+           				<td>UMV actuator well Nr.3 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--51004</td>
+           				<td>WV actuator well Nr.1 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52004</td>
+           				<td>WV actuator well Nr.2 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--53004</td>
+           				<td>WV actuator well Nr.3 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+<div id="3.6"></div>
+           			<tr>
+           				<td>PSV--54004</td>
+           				<td>WV actuator well Nr.4 and pipe</td>
+           				<td>253 barg</td>
+           				<td>Over pressure</td>
+           			</tr>
+
+
+
+
+           		</table>
+           	</p>
+
+           	<p><span><b>3.6.	LIST OF VALVES</b></span></p>
+           	<p>
+           		<table style="width: 100%">
+           			<tr>
+           				<th style="background: rgb(192,192,192)">Tag</th>
+           				<th style="background: rgb(192,192,192)">Description</th>
+           				<th style="background: rgb(192,192,192)">Function</th>
+           			</tr>
+
+           			<tr>
+           				<td>PCV-50066A <br>PCV-50066B</td>
+           				<td>Self-regulating pressure control valves </td>
+           				<td>Regulate the pressure of LP Header at 5.5 barg</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV 50063</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093A</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093B</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50093C</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094A</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094B</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV-50094C</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52001</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--53001</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--54001</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--51003</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52003</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--53003</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--54003</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--51004</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--52004</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--53004</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>PSV--54004</td>
+           				<td>Pressure Safety Valve</td>
+           				<td>Over pressure protection</td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-50065</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-1 Header (Closing all WV’s, UMV’s,  DHSV’s) </td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-50067</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-2 Header (Closing all WV’s, UMV’s) </td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-51018</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-3.1.1 Header (closing WV-51004 and UMV-51003) </td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-52018</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-3.1.2 Header (closing WV-52004 and UMV-52003) </td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-53018</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-3.1.3 Header (closing WV-53004 and UMV-53003) </td>
+           			</tr>
+
+
+           			<tr>
+           				<td>XY-54018</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Pressurize or depressurize the ESD-3.1.4 Header (closing WV054004 and UMV-54003)</td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-51004</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Remote Opening  / closing of WV-51004 from PCS</td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-52004</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Remote Opening  / closing of WV-52004 from PCS</td>
+           			</tr>
+
+
+           			<tr>
+           				<td>XY-53004</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Remote Opening  / closing of WV-53004 from PCS</td>
+           			</tr>
+
+           			<tr>
+           				<td>XY-54004</td>
+           				<td>Three way solenoid valve</td>
+           				<td>Remote Opening  / closing of WV-54004 from PCS</td>
+           			</tr>
+
+
+           		</table><div id="4.1"></div>
+           	</p>
+
+
+
+
+
+
+
+
+         </div> <!-- section 3 -->
+
+         <div class="" style="margin-top: 80px">
+         	<h2><span>SECTION 4	OPERATING MODES</span></h2>
+            <h3><span>4.1.	EQUIPMENT OPERATING MODES</span></h3>
+
+            <p>There are two operating mode for the Hydraulic Pumps P-0042, P-0043 and P-0045: 
+            <ul style="margin-left: 60px">
+            	<li>Local from the WHCP front side</li>
+            	<li>Remote from the HMI of the Well Control Module or from the PCS in QP2 Control Room.</li>
+            </ul>
+            The local control for the electric pumps is performed by:
+            <ul style="margin-left: 60px">
+            	<li>Two start/stop pushbuttons.</li>
+            	<li>One emergency stop pushbutton</li>
+            </ul><div id="4.2"></div>
+
+            The remote control from QP2- CR allows the following selection:
+            <ul style="margin-left: 60px">
+            	<li>Local / remote</li>
+            	<li>Duty / Stand-by</li>
+            </ul><div id="4.3"></div>
+            The DHSV, UMV and WV valves opening is manual from WHCP front face of the drawer, well by well, valve by valve the following opening sequence:
+            <ul style="margin-left: 60px">
+            	<li>DHSV - 1st </li>
+            	<li>UMV - 2nd </li>
+            	<li>WV - 3rd </li>
+            </ul><div id="4.4"></div>
+            The valve closing sequence is either on command from the platform control system or locally from WHCP. If operated locally that is valve by valve local operate, following closing sequence automatically hydraulically performed.
+            <ul style="margin-left: 60px">
+            	<li>WV - 1st </li>
+            	<li>UMV - 2nd </li>
+            	<li>DHSV - 3rd </li>
+            </ul>
+            Action on wellhead platform valves from QP2 is via solenoid valves (de-energized to trip) located inside the WHCP cabinet (XY-50065 for ESD-1, XY-50066 for ESD-2, and XY-5X018 for ESD3.1X).
+            </p><div id="4.5"></div>
+
+
+            <p><span><b>4.2.	NORMAL START-UP</b></span></p>
+            <p>The normal start-up of the Wellhead Control Panel will be done locally with all pumps in “local position” and the wells valves opened locally from the WHCP.</p>
+
+
+            <p><span><b>4.3.	NORMAL OPERATIONS</b></span></p>
+            <p>The normal operations of the Hydraulic Pumps after start-up should be from the DCS at QP2-CR. The normal operations on the wells should be done through the choke valves according to the production demand. See chapter 11 for the Wellhead Operations.</p>
+
+
+            <p><span><b>4.4.	 NORMAL SHUTDOWN</b></span></p>
+            <p>The Hydraulic Pumps can be stopped either form the WHCP stop push button if the remote / local switch is in local from the HMI or from the Central Control Room if the remote / local switch is in remote.</p>
+
+
+            <p><span><b>4.5.	EMERGENCY SHUTDOWN</b></span></p>
+            <p>There is an Emergency .push button on the WHCP front face for each Hydraulic Pump P-0042 A/B,   P-0043 A/B and P-0045.<br>
+			The Auxiliary Pump P-0045 will also trip by ESD-1<br>
+			The VHP Pumps P-0042 A/B will trip by ESD-3.5<br>
+			The HP Pumps P-0043 A/B will trip by ESD-3.6<br>
+			</p><div id="5.1"></div>
+         </div> <!-- section 4 ends here -->
+
+
+
+         <div class="" style="margin-top: 60px">
+         	<h2><span>SECTION 5	HSE REQUIREMENTS</span></h2>
+            <h3><span>5.1		HEALTH</span></h3>
+            <p><span><b>5.1.1	Personal Protective Equipment</b></span></p>
+            <p>Not applicable</p>
+            <div id="5.2"></div>
+
+            <p><span><b>5.2	SAFETY</b></span></p>
+            <p>5.2.1	Personal Protective Equipment</p>
+            <p>Not applicable</p>
+
+
+            <p><span><b>5.2.2	Chemical Hazards</b></span></p>
+            <p>Not applicable</p>
+
+
+            <p><span><b>5.2.3	Hazardous sources</b></span></p>
+            <p>
+            	<table style="width: 100%">
+            		<tr>
+            			<th style="background: rgb(192,192,192)">Hazard</th>
+            			<th style="background: rgb(192,192,192)">Source</th>
+            			<th style="background: rgb(192,192,192)">Hazardous Event</th>
+            			<th style="background: rgb(192,192,192)">Effect</th>
+            			<th style="background: rgb(192,192,192)">Control</th>
+            		</tr>
+
+            		<tr>
+            			<td>Hydraulic Oil under pressure</td>
+            			<td>Inside WHCP</td>
+            			<td>Uncontrolled release of energy</td>
+            			<td>Potential for personnel injury</td>
+            			<td>Routine inspections</td>
+            		</tr>
+
+
+            	</table>
+            </p>
+
+
+            <p><span><b>5.2.4	Nitrogen</b></span></p>
+            <p>The sets of accumulators containing pressurized nitrogen are stored outside of the Hydraulic Power Unit 1 U-0040.</p> <div id="5.3"></div>
+
+
+            <h3><span><b>5.3	ENVIRONMENT</b></span></h3>
+            <p><span><b>5.3.1	Waste</b></span></p>
+            <p>Drip pan connected to Hazardous Open Drain</p>
+
+         </div> <!-- section 4 ends here -->
+
+
+
+
+</div>
+ 
+          
+
+        
+        <div class="article" style="padding:5px 10px 2px 30px;">
+          
+          <p><b>CHAPTER 10 : SAFETY & CRITICAL SYSTEM – TELECOMMUNICATION SYSTEM</b></p>
+
+        </div>
+      </div>
+      <div class="sidebar">
+       <div class="gadget">
+          
+          
+          
+          <h4>CHAPTERS</h4>
+         
+          
+     
+             
+          
+          
+          <ul class="sb_menu" id="style" id="style" style="overflow: scroll;height: 810px; margin: left; width: 250px;">
+      <b>         
+            <li><a href="Chapter 1_final.html">CHAPTER 1</a></li>
+            <li><a href="Chapter 2_final.html">CHAPTER 2</a></li>
+            <li><a href="Chapter 3_final.html">CHAPTER 3</a></li>
+            <li><a href="Chapter 4_final.html">CHAPTER 4</a></li>
+            <li><a href="Chapter 5_final.html">CHAPTER 5</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 6</a></li>
+            <li><a href="Chapter 7_final.html">CHAPTER 7</a></li>
+            <li><a href="Chapter 8_final.html">CHAPTER 8</a></li>
+             <li><a href="Chapter 9_final.html">CHAPTER 9</a></li>
+            
+             <button class="accordion"><strong>CHAPTER 10</strong></button>
+              <div class="panel" id="style" id="style" style="overflow: scroll;height: 600px; margin: left; width: 250px;">
+                <p><a href="Chapter 10_final.html#1.1">1.1. System Overview</a></p>
+               <p><a href="Chapter 10_final.html#2.1">2.1.	EQUIPMENT DESCRIPTION</a></p>
+               <p><a href="Chapter 10_final.html#3.1">3.1	CONTROL DESCRIPTION</a></p>
+               <p><a href="Chapter 10_final.html#3.2">3.2	SYSTEM CONTROL AND SET POINT</a></p>
+               <p><a href="Chapter 10_final.html#3.3">3.3	INDICATORS AND ALARM SETTINGS</a></p>
+               <p><a href="Chapter 10_final.html#3.4">3.4 	TRIP SETTINGS</a></p>
+               <p><a href="Chapter 10_final.html#3.5">3.5 		PRESSURE SAFETY VALVES SETTINGS</a></p>
+               <p><a href="Chapter 10_final.html#3.6">3.6 		LIST OF VALVES</a></p>
+               <p><a href="Chapter 10_final.html#4.1">4.1.	EQUIPMENT OPERATING MODES</a></p>
+               <p><a href="Chapter 10_final.html#4.2">4.2.	NORMAL START-UP</a></p>
+               <p><a href="Chapter 10_final.html#4.3">4.3.	NORMAL OPERATIONS</a></p>
+               <p><a href="Chapter 10_final.html#4.4">4.4.	 NORMAL SHUTDOWN</a></p>
+               <p><a href="Chapter 10_final.html#4.5">4.5.	EMERGENCY SHUTDOWN</a></p>
+               <p><a href="Chapter 10_final.html#5.1">5.1		HEALTH</a></p>
+               <p><a href="Chapter 10_final.html#5.2">5.2	SAFETY</a></p>
+               <p><a href="Chapter 10_final.html#5.3">5.3	ENVIRONMENT</a></p>
+               
+
+               
+              
+               
+              </div>
+              
+            <li><a href="Chapter 11_final.html">CHAPTER 11</a></li>
+            <li><a href="Chapter 12_final.html">CHAPTER 12</a></li>
+             <li><a href="Chapter 13_final.html">CHAPTER 13</a></li>
+            <li><a href="Chapter 14_final.html">CHAPTER 14</a></li>
+            <li><a href="Chapter 15_final.html">CHAPTER 15</a></li>
+            <li><a href="Chapter 16_final.html">CHAPTER 16</a></li>
+            <li><a href="Chapter 17_final.html">CHAPTER 17</a></li>
+            <li><a href="Chapter 18_final.html">CHAPTER 18</a></li>
+            <li><a href="Chapter 19_final.html">CHAPTER 19</a></li>
+          
+          </b>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+    
+    <div class="footer">
+     
+     <p class="lf"><a href="credits.html">CREDITS</a>.&nbsp;&nbsp;Design by <a target="_blank" href="http://www.spieogs.com/">SPIE Oil &amp; Gas Services ASP Sdn Bhd</a>
+    <img src="pic/spie.jpg" width="85" height="42"></p>
+      <p class="lf"> This site is best viewed with a resolution of 1024x768 (or higher) and supports Firefox 1.0+ and Google Chrome 18+.</p>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+<!-- Drop Down Menu Code Start (Please insert in each page)-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+<!-- Drop Down Menu Code End-->
+
+<script type="text/javascript">
+      
+  /*Menu-toggle*/
+    $("#sb_menu").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

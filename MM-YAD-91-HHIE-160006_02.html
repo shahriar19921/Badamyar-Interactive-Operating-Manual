@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head>
+
+<title>BADAMYAR OPERATING MANUAL</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="js/dropdown.css">
+ 
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script>
+function PopupCenter(pageURL, title,w,h,gapX,gapY) {
+var left = (screen.width/2)-(w/2)+gapX;
+var top = (screen.height/2)-(h/2)+gapY;
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+  </script>
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=700,width=950,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<!-- Image Zoom Code Start (Please insert in each page)-->
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomable-1.2.js?v=2"></script>
+
+<script>
+function showHide(shID) {
+	if (document.getElementById(shID)) {
+		if (document.getElementById(shID+'-show').style.display != 'none') {
+			document.getElementById(shID+'-show').style.display = 'none';
+			document.getElementById(shID).style.display = 'block';
+		}
+		else {
+			document.getElementById(shID+'-show').style.display = 'inline';
+			document.getElementById(shID).style.display = 'none';
+		}
+	}
+}	
+	
+
+</script>
+      
+<!-- Please remember to add in each image name -->       
+<script type="text/javascript">
+$(document).ready(function(){
+    	$('#image1').zoomable();$('#image2').zoomable();$('#image3').zoomable();$('#image4').zoomable();$('#image5').zoomable();$('#image6').zoomable();$('#image7').zoomable();$('#image8').zoomable();$('#image9').zoomable();$('#image10').zoomable();$('#image11').zoomable();$('#image12').zoomable();$('#image13').zoomable();
+
+    });
+</script>
+    
+
+
+<!-- Image Zoom Code End-->
+
+
+
+</head>
+
+<body>
+
+
+	<div class= "main">
+		<div class ="header">
+			<div class="header_resize">
+				
+						
+
+						 
+		</div> <!-- header_resize finishes here-->
+	</div> <!--header finishes here -->
+
+
+
+
+
+	<div class="content">
+		<div class="content_resize">
+			<div class="mainbar">
+				<div class="article">
+
+						<br />
+
+
+<p>
+
+<a href="#" id="w2-show" class="showLink" 
+onclick="showHide('w2');return true;">MM-YAD-91-HHIE-160006 </a>
+</p>
+
+
+
+	 <div id="w2">
+  
+  
+
+
+<p>
+   <input type="button" value="+" onclick="$('#image2').zoomable({method:'zoomIn'})" title="Zoom in" class="btn btn-primary"> 
+   <input type="button" value="-" onclick="$('#image2').zoomable({method:'zoomOut'})" title="Zoom out" class="btn btn-primary"> 
+   <input type="button" value="Reset" onclick="$('#image2').zoomable({method:'reset'})" class="btn btn-primary">
+	
+</p>
+
+   <div>
+   	<a href="ima/P&ID/91-160006/91-160006 - north/Grp_91-160006.htm" alt="Demo image for zoomable jQuery plugin" class="ui-draggable ui-draggable-handle" id="image2" style="display: inline-block; height: 524px; width: 720px;" border="0"></a>
+   <!-- <img src="ima/P&ID/91-160006/91-160006 - north/Grp_91-160006.htm" alt="Demo image for zoomable jQuery plugin" class="ui-draggable ui-draggable-handle" id="image2" style="display: inline-block; height: 524px; width: 720px;" border="0"> -->
+	</div>
+	</div>
+
+<!-- This is the sample of drawing that can click to link to another drawing -->
+
+
+
+	
+
+				</div>
+			</div>
+
+
+			
+		</div> <!--content_resize finishes here-->
+	</div> <!--content finishes here -->
+
+
+	</div>
+
+</body>
+</html>
