@@ -1,29 +1,13 @@
-# Foobar
+# Interactive Operating Manual 
 
-Foobar is a Python library for dealing with word pluralization.
+This is a sample interactive Operating Manual for Oil and Gas project which can cover both operating manual and procedures
 
-## Installation
+## Clients
 
+The Badamyar gas project involves the development of the Badamyar gas field, which is located in the M5 block of the Gulf of Martaban in the Andaman Sea, off the shore of Myanmar.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+Contractors involved: Hyundai Heavy Industries (HHI) and Total Myanmar
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -31,4 +15,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[Spie]
+[Spie Oil and Gas Services](https://www.spie.com/en/spie-oil-gas-services)
